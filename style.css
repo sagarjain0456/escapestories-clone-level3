@@ -11,21 +11,17 @@
 
 body{
   background-color: orange;
-  position: relative;
 }
-
 
 .escapelogostyle{
   height:100px;
   width: 100px;
 }
 
-
 .login{
   height:20px;
   width: 20px;
 }
-
 
 .search{
   height:20px;
@@ -37,50 +33,21 @@ body{
   width: 20px;
 }
 
-
-/* .menu{
-  height:20px;
-  width: 20px;
-  position: absolute;
-  left:0;
-  display: none;
-}
-#closehide{
-  display: none ;
-}
-.color{
-  color: white;
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  display: none;
-} */
-
-
-
-
 #my-checkbox{
   display:none;
 }
 
-
-
 #menu{
   cursor: pointer;
-  /* transform: rotate(45deg);  */
 }
-
 
 #bar1{
   width: 20px;
   height:2px;
   background-color: black;
-  /* margin-bottom: 1px; */
   position: absolute;
   top:20px;
   left: 20px;
-  /* transform: rotate(45deg); */
-  /* transition: transform  0.7s; */
   transition-property: transform;
   transition-duration: 0.7s;
   transition-delay: 0s;
@@ -93,19 +60,10 @@ body{
   position: absolute;
   top:30px;
   left: 20px;
-  /* transform: rotate(-45deg); */
-    /* transition: transform  0.7s; */
-    transition-property: transform;
-    transition-duration: 0.7s;
-    transition-delay: 0s;
+  transition-property: transform;
+  transition-duration: 0.7s;
+  transition-delay: 0s;
 }
-
-
-
-
-
-
-
 
 .topbar{
   display: flex;
@@ -115,51 +73,33 @@ body{
   align-items: center;
 }
 
-
 #navitems {
   border: 2px solid orange;
   height: 50px;
 }
 
-
 #navitems a {
    padding: 15px;
    display: inline-block;
-   color: black;
-
 }
-
-
 
 .rightlogos img{
    margin: 10px;
-
 }
 
-
-
-/* .shift{
-  margin-top:40px;
-} */
-
-/* .community{
-  display: inline-block;
-} */
-
+.find{
+  color: red;
+  visibility: hidden;
+  position: absolute;
+}
 
 @media only screen and (max-width: 1241px) {
   body {
     background-color: lightblue;
   }
 
-
-
   .topbar{
-    /* display: flex;
-    border: 2px solid black; */
     height:120px;
-    /* justify-content: space-between;
-    align-items: center; */
   }
 
 #navitems {
@@ -167,18 +107,8 @@ body{
   width: 800px;
   height: 90px;
   text-align: center;
-  /* padding:20px; */
 }
-
-
-
-
 }
-
-
-
-
-
 
 @media only screen and (max-width: 1149px) {
   body {
@@ -191,20 +121,12 @@ body{
     height: 90px;
     text-align: center;
   }
-
 }
-
-
-
-
-
-
 
 @media only screen and (max-width: 1050px) {
   body {
     background-color: brown;
   }
-
 
   #navitems {
     border: 2px solid black;
@@ -212,16 +134,9 @@ body{
     height: 90px;
     text-align: center;
   }
-
-
 }
 
-
-
-
-
 @media only screen and (max-width: 908px) {
-
 body{
   background-color: purple;
 }
@@ -232,31 +147,16 @@ body{
   height: 90px;
   text-align: center;
 }
-
 }
 
-
-
-
-
-
-
 @media only screen and (max-width:790px) {
-
 body{
   background-color: green;
 }
 
-
 .topbar{
-  /* display: flex;
-  border: 2px solid black; */
   height:170px;
-  /* justify-content: space-between;
-  align-items: center; */
 }
-
-
 
 #navitems {
   border: 2px solid black;
@@ -266,72 +166,38 @@ body{
   text-align: center;
 }
 
-
-
 .escapelogo img{
   margin-top: 10px;
-
 }
-
-
 
 .rightlogos{
   margin-top: 0px;
 }
-
-
-
 }
 
-
-
-
-
-
 @media only screen and (max-width:766px) {
-
   body{
     background-color: yellow;
     position: relative;
   }
-/*
-  .navitems {
-    border: 2px solid black;
-    width: 450px;
-    height: 70px;
-    text-align: center;
-  } */
 
 #navitems{
   border: 2px solid black;
-  width: 450px;
-  height: 70px;
+  width: 80%;
   text-align: center;
   position: fixed;
-  width:450px;
   top:0px;
   padding-top: 100px;
   left:-500%;
-  /* left:0; */
-  /* background: black; */
   background: black;
-  /* color: pink; */
   height:120%;
 }
-
-
-
-
-
-
 
 #navitems a{
   display: block;
   text-align: left;
   color:white;
-
 }
-
 
 .topbar{
    display: flex;
@@ -341,18 +207,6 @@ body{
   align-items: center;
 }
 
-
-
-.escapelogo img{
- /* align-items: center;
- justify-content: center; */
- /* position: absolute;
-  right:300px;
-  top: -25px; */
- /* bottom: 90px; */
- /* padding: auto; */
-}
-
 .login{
   height:20px;
   width: 20px;
@@ -360,7 +214,6 @@ body{
   top:11px;
   right:50px;
 }
-
 
 .search{
   height:20px;
@@ -376,18 +229,47 @@ body{
   top:12px;
 }
 
-
-
-
 #menu{
   display:block;
 }
 
+.find{
+  color: red;
+  visibility: visible;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+}
 
+.community{
+  position: absolute;
+  top:500px;
+}
 
+.treks{
+  position: absolute;
+  top:450px;
+}
 
+.past{
+  position: absolute;
+  top:400px;
+}
 
+.upcoming{
+  position: absolute;
+  top:350px;
+}
 
+.pedals{
+  position: absolute;
+  top:300px;
+}
+
+.my{
+  position: absolute;
+  top:250px;
+}
 }    /* closing of the media query */
 
 
