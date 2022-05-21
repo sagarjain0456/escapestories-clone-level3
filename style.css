@@ -334,22 +334,23 @@ body{
 
 
 .topbar{
-  /* display: flex;
-  border: 2px solid black; */
+   display: flex;
+  border: 2px solid black;
   height:60px;
-  /* justify-content: space-between;
-  align-items: center; */
+ justify-content: center;
+  align-items: center;
 }
 
 
 
 .escapelogo img{
- /* align-items: center; */
- /* justify-content: center; */
- position: absolute;
+ /* align-items: center;
+ justify-content: center; */
+ /* position: absolute;
   right:300px;
-  top: -25px;
+  top: -25px; */
  /* bottom: 90px; */
+ /* padding: auto; */
 }
 
 .login{
@@ -381,6 +382,11 @@ body{
 #menu{
   display:block;
 }
+
+
+
+
+
 
 }    /* closing of the media query */
 
