@@ -45,12 +45,9 @@ body{
   left:0;
   display: none;
 }
-
 #closehide{
   display: none ;
-
 }
-
 .color{
   color: white;
   position: absolute;
@@ -140,6 +137,11 @@ body{
 }
 
 
+
+/* .shift{
+  margin-top:40px;
+} */
+
 /* .community{
   display: inline-block;
 } */
@@ -178,7 +180,7 @@ body{
 
 
 
-@media only screen and (max-width: 1118px) {
+@media only screen and (max-width: 1149px) {
   body {
     background-color: orange;
   }
@@ -198,7 +200,7 @@ body{
 
 
 
-@media only screen and (max-width: 1028px) {
+@media only screen and (max-width: 1050px) {
   body {
     background-color: violet;
   }
@@ -218,7 +220,7 @@ body{
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 908px) {
 
 /* body{
   background-color: yellow;
@@ -239,7 +241,7 @@ body{
 
 
 
-@media only screen and (max-width:772px) {
+@media only screen and (max-width:790px) {
 
 body{
   background-color: pink;
@@ -286,7 +288,7 @@ body{
 
 
 
-@media only screen and (max-width:720px) {
+@media only screen and (max-width:766px) {
 
   body{
     background-color: yellow;
