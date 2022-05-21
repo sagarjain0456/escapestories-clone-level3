@@ -35,7 +35,8 @@ if(document.getElementById("my-checkbox").checked){
     document.getElementById('navitems').style.left = '-500%' ;
         document.getElementById('bar1').style.backgroundColor = 'black' ;
             document.getElementById('bar2').style.backgroundColor = 'black' ;
-
+document.getElementById('cart').style.opacity = '1';
+ document.getElementById('cart').style.transition = '0.1s ';
 
 
 }
@@ -53,5 +54,8 @@ else{
   document.getElementById('navitems').style.left = '0' ;
 
   document.getElementById('navitems').style.transition = 'all 0.3s ease';
+
+       document.getElementById('cart').style.transition = '0.8s ';
+    document.getElementById('cart').style.opacity = '0';
 }
 }
