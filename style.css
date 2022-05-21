@@ -70,6 +70,49 @@
 
 
 
+
+
+
+.upcomingitems{
+  /* display:flex; */
+  display:none;
+  /* justify-content: space-around; */
+  width: 200px;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  right:600px;
+}
+
+.upcomingabovediv:hover .upcomingitems {display: flex;}
+.upcomingitems a:hover {background-color: #82b74b;}
+
+
+
+
+
+
+
+
+
+.pedalsitems{
+  /* display:flex; */
+  display:none;
+  /* justify-content: space-around; */
+  width: 200px;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  right:720px;
+}
+
+.pedalsabovediv:hover .pedalsitems {display: flex;}
+.pedalsitems a:hover {background-color: #82b74b;}
+
+
+
 #menu{
   display:none;
 }
@@ -169,6 +212,35 @@ body{
     height:120px;
   }
 
+
+
+  .joinusbtn{
+    top:110px;
+    right: 480px;
+  }
+
+
+
+  .treksitems{
+    right:150px;
+  }
+
+
+  .pastitems{
+    right:220px;
+  }
+
+
+  .upcomingitems{
+    right:360px;
+  }
+
+
+
+  .pedalsitems{
+    right:500px;
+  }
+
 #navitems {
   border: 2px solid orange;
   width: 800px;
@@ -181,6 +253,13 @@ body{
   body {
     background-color: red;
   }
+
+
+  .treksitems{
+    right:580px;
+  }
+
+
 
   #navitems {
     border: 2px solid black;
