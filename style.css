@@ -5,6 +5,37 @@
   text-decoration: none;
 }
 
+
+.joinusbtn{
+  /* display: inline-block; */
+  display: none;
+  height:50px;
+  width:200px;
+  background-color: white;
+  position: absolute;
+  top:50px;
+  right: 280px;
+  border-radius: 10px;
+  /* padding: 50px; */
+}
+
+.joinus{
+
+  color: black;
+  margin-top: 0px;
+  margin-left: 10px;
+  display:inline-block;
+}
+
+.communityabovediv:hover .joinusbtn {display: inline-block;}
+.joinusbtn:hover {background-color: #82b74b;}
+
+
+
+
+
+
+
 #menu{
   display:none;
 }
@@ -81,6 +112,7 @@ body{
 #navitems a {
    padding: 15px;
    display: inline-block;
+   /* display: none; */
    color: black;
 }
 
