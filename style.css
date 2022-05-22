@@ -274,6 +274,37 @@ body{
     background-color: brown;
   }
 
+
+
+  .joinusbtn{
+    top:110px;
+    right: 300px;
+  }
+
+
+
+  .treksitems{
+    right:400px;
+  }
+
+
+
+  .pastitems{
+    right:500px;
+  }
+
+
+  .upcomingitems{
+    right:200px;
+  }
+
+
+
+  .pedalsitems{
+    right:300px;
+  }
+
+
   #navitems {
     border: 2px solid black;
     width: 550px;
