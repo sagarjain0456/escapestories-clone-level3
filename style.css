@@ -318,6 +318,44 @@ body{
   background-color: purple;
 }
 
+
+
+
+
+
+.joinusbtn{
+  top:110px;
+  right: 140px;
+}
+
+
+ .treksitems{
+  right:240px;
+}
+
+
+
+.pastitems{
+  right:340px;
+}
+
+
+.upcomingitems{
+  right:460px;
+}
+
+
+
+.pedalsitems{
+  right:200px;
+}
+
+
+
+
+
+
+
 #navitems {
   border: 2px solid black;
   width: 450px;
@@ -330,6 +368,37 @@ body{
 body{
   background-color: green;
 }
+
+
+.joinusbtn{
+  top:140px;
+  right: 260px;
+}
+
+
+ .treksitems{
+  right:150px;
+}
+
+
+
+.pastitems{
+  right:230px;
+}
+
+
+.upcomingitems{
+  right:370px;
+}
+
+
+
+.pedalsitems{
+  right:140px;
+}
+
+
+
 
 .topbar{
   height:170px;
@@ -367,14 +436,35 @@ body{
   padding-top: 100px;
   left:-500%;
   background: black;
+  /* color: red; */    /*no response*/
   height:120%;
 }
 
 #navitems a{
   display: block;
   text-align: left;
-  color:white;
 }
+
+
+#navitems .yo{
+  color: white;
+}
+
+
+
+.joinusbtn{
+  /* top:110px;
+  right: 140px; */
+  color: black;
+}
+
+
+
+
+
+
+
+
 
 .topbar{
    display: flex;
@@ -447,6 +537,16 @@ body{
   position: absolute;
   top:250px;
 }
+
+
+
+
+
+.pedalsabovediv:hover .pedalsitems {width: 30%;}
+
+
+
+
 }    /* closing of the media query */
 
 
