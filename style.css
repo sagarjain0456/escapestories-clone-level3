@@ -5,7 +5,9 @@
   text-decoration: none;
 }
 
-
+html{
+  height: 100vh;
+}
 .joinusbtn{
   /* display: inline-block; */
   display: none;
@@ -428,16 +430,20 @@ body{
   }
 
 #navitems{
-  border: 2px solid black;
+  border: 5px solid green  ;
   width: 80%;
   text-align: center;
   position: fixed;
   top:0px;
+  margin-top: 0px;
   padding-top: 100px;
   left:-500%;
   background: black;
   /* color: red; */    /*no response*/
-  height:120%;
+  height: 100vh;
+  overflow: scroll;
+
+
 }
 
 #navitems a{
@@ -457,8 +463,6 @@ body{
   right: 140px; */
   color: black;
 }
-
-
 
 
 
@@ -504,52 +508,78 @@ body{
   color: red;
   visibility: visible;
   position: absolute;
-  top: 200px;
+  top: 1600px;
   left: 0px;
 }
 
 .community{
   position: absolute;
-  top:500px;
+  /* top:500px; */
+   top:1500px;
 }
 
 .treks{
   position: absolute;
-  top:450px;
+  /* top:450px; */
+  top: 1100px;
 }
 
 .past{
   position: absolute;
-  top:400px;
+  /* top:400px; */
+  top:550px;
+   /* overflow: scroll; */
 }
 
 .upcoming{
   position: absolute;
-  top:350px;
+  /* top:350px; */
+  top:290px;
 }
 
 .pedals{
   position: absolute;
-  top:300px;
+  top:245px;
+  /* top:500px; */
 }
 
 .my{
   position: absolute;
-  top:250px;
+  top:200px;
+}
+
+
+.pedalsitems{
+  display: none;
+  background-color: pink;
 }
 
 
 
 
+.pedalsabovediv:hover .pedalsitems {width:100%; left:0; top:280px; display:block;}
 
-.pedalsabovediv:hover .pedalsitems {width: 30%;}
 
+
+/* .pedalsabovediv:hover+h1{color:green;} */
+/* .pedalsabovediv:hover ~ .upcomingabovediv {color: red;} */
+
+
+.pedalsabovediv:hover +.upcomingabovediv{ top: 600px;}
+
+
+
+
+
+
+.upcomingabovediv:hover .upcomingitems {width:100%; top:500px; left:0px;}
+.pastabovediv:hover .pastitems {width:100%; top:590px; left:0px;}
+.trekabovediv:hover .treksitems {width:100%; top:1135px; left:0px;}
+.communityabovediv:hover .joinusbtn {width:100%; top:1550px; left:0px;}
 
 
 
 }    /* closing of the media query */
-
-
 
 
 
