@@ -557,7 +557,7 @@ body{
 
 
 
-.pedalsabovediv:hover .pedalsitems {width:100%; left:0; top:280px; display:block;}
+.pedalsabovediv:hover .pedalsitems {width:100%; left:0; top:280px; display: block;}
 
 
 
@@ -565,7 +565,7 @@ body{
 /* .pedalsabovediv:hover ~ .upcomingabovediv {color: red;} */
 
 
-.pedalsabovediv:hover +.upcomingabovediv{ top: 600px;}
+.pedalsabovediv:hover ~ .upcoming{ top: 390px;}
 
 
 
