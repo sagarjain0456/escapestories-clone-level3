@@ -14,6 +14,10 @@
   display:none;
 }
 
+
+#checkbox4{
+  display:none;
+}
 html{
   height: 100vh;
 }
