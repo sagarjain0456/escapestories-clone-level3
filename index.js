@@ -205,3 +205,35 @@ document.getElementById("treksitems").style.visibility="hidden" ;
          document.getElementById("treksitems").style.visibility="visible" ;
  }
 }
+
+
+
+
+
+
+
+
+
+
+
+function myfunction6() {
+ if(document.getElementById("checkbox6").checked ){
+
+    document.getElementById("find").style.top= "500px";
+// console.log("not checked")
+document.getElementById("joinusbtn").style.visibility="hidden" ;
+ }
+
+ else{
+
+
+
+              document.getElementById("find").style.top= "550px";
+         // console.log("checked now");
+         document.getElementById("joinusbtn").style.backgroundColor= "pink";
+          document.getElementById("joinusbtn").style.top= "480px";
+          document.getElementById("joinusbtn").style.left= "0px";
+          document.getElementById("joinusbtn").style.width= "100%";
+         document.getElementById("joinusbtn").style.visibility="visible" ;
+ }
+}
