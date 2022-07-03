@@ -90,7 +90,7 @@ document.getElementById("pedalsitems").style.visibility="hidden" ;
  }
 
  else{
-      document.getElementById("upcome").style.top= "430px";
+      document.getElementById("upcome").style.top= "450px";
         document.getElementById("past").style.top= "500px";
             document.getElementById("trek").style.top= "550px";
               document.getElementById("community").style.top= "600px";
