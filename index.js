@@ -80,28 +80,18 @@ else{
 //
 function myfunction2() {
  if(document.getElementById("checkbox2").checked ){
-
-   // document.getElementById("pedalsitems").style.width="100%";
-   // document.getElementById("pedalsitems").style.left="0px";
-   // document.getElementById("pedalsitems").style.top="390px";
-   // document.getElementById("pedalsitems").style.display="block";
-   // console.log("dsakjfla");
-   //  document.getElementById("pedalsitems").style.visibility = "visible" ;
  document.getElementById("upcome").style.top= "290px";
-console.log("not checked")
+// console.log("not checked")
 document.getElementById("pedalsitems").style.visibility="hidden" ;
  }
 
  else{
-      document.getElementById("upcome").style.top= "390px";
-         console.log("checked now");
+      document.getElementById("upcome").style.top= "430px";
+         // console.log("checked now");
          document.getElementById("pedalsitems").style.backgroundColor= "pink";
-          document.getElementById("pedalsitems").style.top= "280px";
+          document.getElementById("pedalsitems").style.top= "300px";
           document.getElementById("pedalsitems").style.left= "0px";
           document.getElementById("pedalsitems").style.width= "100%";
-         // document.getElementById("upcome").style.top= "280px";
-         // document.getElementById("upcome").style.left= "0px";
-
          document.getElementById("pedalsitems").style.visibility="visible" ;
  }
 }
