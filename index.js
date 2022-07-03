@@ -77,9 +77,31 @@ else{
 // box.addEventListener('mouseout', function handleMouseOut() {
 //   box.style.color = 'black';
 // });
+//
+function myfunction2() {
+ if(document.getElementById("checkbox2").checked ){
 
-function change() {
-   const box = document.getElementById('upcome');
-   box.style.color = "red";
-   box.style.top="390px";
+   // document.getElementById("pedalsitems").style.width="100%";
+   // document.getElementById("pedalsitems").style.left="0px";
+   // document.getElementById("pedalsitems").style.top="390px";
+   // document.getElementById("pedalsitems").style.display="block";
+   // console.log("dsakjfla");
+   //  document.getElementById("pedalsitems").style.visibility = "visible" ;
+ document.getElementById("upcome").style.top= "290px";
+console.log("not checked")
+document.getElementById("pedalsitems").style.visibility="hidden" ;
+ }
+
+ else{
+      document.getElementById("upcome").style.top= "390px";
+         console.log("checked now");
+         document.getElementById("pedalsitems").style.backgroundColor= "pink";
+          document.getElementById("pedalsitems").style.top= "280px";
+          document.getElementById("pedalsitems").style.left= "0px";
+          document.getElementById("pedalsitems").style.width= "100%";
+         // document.getElementById("upcome").style.top= "280px";
+         // document.getElementById("upcome").style.left= "0px";
+
+         document.getElementById("pedalsitems").style.visibility="visible" ;
+ }
 }
