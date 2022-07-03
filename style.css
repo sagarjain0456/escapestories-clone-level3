@@ -24,11 +24,15 @@
   display:none;
 }
 
+#checkbox6{
+  display:none;
+}
+
 
 html{
   height: 100vh;
 }
-.joinusbtn{
+#joinusbtn{
   /* display: inline-block; */
   display: none;
   height:50px;
@@ -49,8 +53,8 @@ html{
   display:inline-block;
 }
 
-.communityabovediv:hover .joinusbtn {display: inline-block;}
-.joinusbtn:hover {background-color: #82b74b;}
+.communityabovediv:hover #joinusbtn {display: inline-block;}
+#joinusbtn:hover {background-color: #82b74b;}
 
 
 #treksitems{
@@ -236,7 +240,7 @@ body{
 
 
 
-  .joinusbtn{
+  #joinusbtn{
     top:110px;
     right: 480px;
   }
@@ -298,7 +302,7 @@ body{
 
 
 
-  .joinusbtn{
+  #joinusbtn{
     top:110px;
     right: 300px;
   }
@@ -345,7 +349,7 @@ body{
 
 
 
-.joinusbtn{
+#joinusbtn{
   top:110px;
   right: 140px;
 }
@@ -392,7 +396,7 @@ body{
 }
 
 
-.joinusbtn{
+#joinusbtn{
   top:140px;
   right: 260px;
 }
@@ -478,7 +482,7 @@ body{
 
 
 
-.joinusbtn{
+#joinusbtn{
   /* top:110px;
   right: 140px; */
   color: black;
@@ -591,6 +595,11 @@ body{
   visibility: hidden;
 }
 
+
+
+#joinusbtn{
+  visibility: hidden;
+}
 /* .pedalsabovediv:hover  {width:100%; left:0; top:280px; display: block;} */
 
 
@@ -609,7 +618,7 @@ body{
 .upcomingabovediv:hover #upcomingitems {width:100%; top:500px; left:0px;}
 .pastabovediv:hover #pastitems {width:100%; top:590px; left:0px;}
 .trekabovediv:hover #treksitems {width:100%; top:1135px; left:0px;}
-.communityabovediv:hover .joinusbtn {width:100%; top:1550px; left:0px;} */
+.communityabovediv:hover #joinusbtn {width:100%; top:1550px; left:0px;} */
 
 
 
