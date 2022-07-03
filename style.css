@@ -9,6 +9,7 @@
   display:none;
 }
 
+
 html{
   height: 100vh;
 }
@@ -552,7 +553,9 @@ body{
   top:200px;
 }
 
-
+#checkbox2{
+  display:none;
+}
 #pedalsitems{
 
     /* display:  none !important; */
