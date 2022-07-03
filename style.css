@@ -46,7 +46,7 @@ html{
 .joinusbtn:hover {background-color: #82b74b;}
 
 
-.treksitems{
+#treksitems{
   /* display:flex; */
   display:none;
   flex-direction: column;
@@ -57,8 +57,8 @@ html{
 }
 
 
-.trekabovediv:hover .treksitems {display: flex;}
-.treksitems a:hover {background-color: #82b74b;}
+.trekabovediv:hover #treksitems {display: flex;}
+#treksitems a:hover {background-color: #82b74b;}
 
 
 
@@ -236,7 +236,7 @@ body{
 
 
 
-  .treksitems{
+  #treksitems{
     right:150px;
   }
 
@@ -270,7 +270,7 @@ body{
   }
 
 
-  .treksitems{
+  #treksitems{
     right:580px;
   }
 
@@ -298,7 +298,7 @@ body{
 
 
 
-  .treksitems{
+  #treksitems{
     right:400px;
   }
 
@@ -344,7 +344,7 @@ body{
 }
 
 
- .treksitems{
+ #treksitems{
   right:240px;
 }
 
@@ -391,7 +391,7 @@ body{
 }
 
 
- .treksitems{
+ #treksitems{
   right:150px;
 }
 
@@ -579,6 +579,11 @@ body{
 }
 
 
+
+#treksitems{
+  visibility: hidden;
+}
+
 /* .pedalsabovediv:hover  {width:100%; left:0; top:280px; display: block;} */
 
 
@@ -596,7 +601,7 @@ body{
 /*
 .upcomingabovediv:hover #upcomingitems {width:100%; top:500px; left:0px;}
 .pastabovediv:hover #pastitems {width:100%; top:590px; left:0px;}
-.trekabovediv:hover .treksitems {width:100%; top:1135px; left:0px;}
+.trekabovediv:hover #treksitems {width:100%; top:1135px; left:0px;}
 .communityabovediv:hover .joinusbtn {width:100%; top:1550px; left:0px;} */
 
 
