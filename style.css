@@ -10,6 +10,10 @@
 }
 
 
+#checkbox3{
+  display:none;
+}
+
 html{
   height: 100vh;
 }
@@ -80,7 +84,7 @@ html{
 
 
 
-.upcomingitems{
+#upcomingitems{
   /* display:flex; */
   display:none;
   /* justify-content: space-around; */
@@ -92,8 +96,8 @@ html{
   right:600px;
 }
 
-.upcomingabovediv:hover .upcomingitems {display: flex;}
-.upcomingitems a:hover {background-color: #82b74b;}
+.upcomingabovediv:hover #upcomingitems {display: flex;}
+#upcomingitems a:hover {background-color: #82b74b;}
 
 
 
@@ -238,7 +242,7 @@ body{
   }
 
 
-  .upcomingitems{
+  #upcomingitems{
     right:360px;
   }
 
@@ -301,7 +305,7 @@ body{
   }
 
 
-  .upcomingitems{
+  #upcomingitems{
     right:200px;
   }
 
@@ -347,7 +351,7 @@ body{
 }
 
 
-.upcomingitems{
+#upcomingitems{
   right:460px;
 }
 
@@ -394,7 +398,7 @@ body{
 }
 
 
-.upcomingitems{
+#upcomingitems{
   right:370px;
 }
 
@@ -513,26 +517,26 @@ body{
   color: red;
   visibility: visible;
   position: absolute;
-  top: 1600px;
+  top: 500px;
   left: 0px;
 }
 
 .community{
   position: absolute;
   /* top:500px; */
-   top:1500px;
+   top:445px;
 }
 
 .treks{
   position: absolute;
   /* top:450px; */
-  top: 1100px;
+  top: 395px;
 }
 
 .past{
   position: absolute;
   /* top:400px; */
-  top:550px;
+  top:345px;
    /* overflow: scroll; */
 }
 
@@ -562,6 +566,10 @@ body{
     visibility: hidden;
 }
 
+#upcomingitems{
+  visibility: hidden;
+}
+
 
 
 
@@ -580,7 +588,7 @@ body{
 
 
 /*
-.upcomingabovediv:hover .upcomingitems {width:100%; top:500px; left:0px;}
+.upcomingabovediv:hover #upcomingitems {width:100%; top:500px; left:0px;}
 .pastabovediv:hover .pastitems {width:100%; top:590px; left:0px;}
 .trekabovediv:hover .treksitems {width:100%; top:1135px; left:0px;}
 .communityabovediv:hover .joinusbtn {width:100%; top:1550px; left:0px;} */
