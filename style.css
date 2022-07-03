@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+#checkbox2{
+  display:none;
+}
+
 html{
   height: 100vh;
 }
