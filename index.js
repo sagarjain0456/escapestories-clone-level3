@@ -164,9 +164,9 @@ document.getElementById("pastitems").style.visibility="hidden" ;
 
  else{
 
-            document.getElementById("trek").style.top= "930px";
-              document.getElementById("community").style.top= "970px";
-              document.getElementById("find").style.top= "1020px";
+            document.getElementById("trek").style.top= "880px";
+              document.getElementById("community").style.top= "920px";
+              document.getElementById("find").style.top= "970px";
          // console.log("checked now");
          document.getElementById("pastitems").style.backgroundColor= "pink";
           document.getElementById("pastitems").style.top= "395px";
