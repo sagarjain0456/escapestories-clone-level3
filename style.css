@@ -98,7 +98,7 @@ html{
 
 
 
-.pedalsitems{
+#pedalsitems{
   /* display:flex; */
   display:none;
   /* justify-content: space-around; */
@@ -110,8 +110,8 @@ html{
   right:720px;
 }
 
-.pedalsabovediv:hover .pedalsitems {display: flex;}
-.pedalsitems a:hover {background-color: #82b74b;}
+.pedalsabovediv:hover #pedalsitems {display: flex;}
+#pedalsitems a:hover {background-color: #82b74b;}
 
 
 
@@ -239,7 +239,7 @@ body{
 
 
 
-  .pedalsitems{
+  #pedalsitems{
     right:500px;
   }
 
@@ -302,7 +302,7 @@ body{
 
 
 
-  .pedalsitems{
+  #pedalsitems{
     right:300px;
   }
 
@@ -348,7 +348,7 @@ body{
 
 
 
-.pedalsitems{
+#pedalsitems{
   right:200px;
 }
 
@@ -395,7 +395,7 @@ body{
 
 
 
-.pedalsitems{
+#pedalsitems{
   right:140px;
 }
 
@@ -549,15 +549,16 @@ body{
 }
 
 
-.pedalsitems{
-  display: none;
-  background-color: pink;
+#pedalsitems{
+
+    /* display:  none !important; */
+    visibility: hidden;
 }
 
 
 
 
-.pedalsabovediv:hover .pedalsitems {width:100%; left:0; top:280px; display: block;}
+/* .pedalsabovediv:hover  {width:100%; left:0; top:280px; display: block;} */
 
 
 
@@ -565,17 +566,17 @@ body{
 /* .pedalsabovediv:hover ~ .upcomingabovediv {color: red;} */
 
 
-.pedalsabovediv:hover ~ .upcoming{ top: 390px;}
+/* .pedalsabovediv:hover ~ .upcoming{ top: 390px;} */
 
 
 
 
 
-
+/*
 .upcomingabovediv:hover .upcomingitems {width:100%; top:500px; left:0px;}
 .pastabovediv:hover .pastitems {width:100%; top:590px; left:0px;}
 .trekabovediv:hover .treksitems {width:100%; top:1135px; left:0px;}
-.communityabovediv:hover .joinusbtn {width:100%; top:1550px; left:0px;}
+.communityabovediv:hover .joinusbtn {width:100%; top:1550px; left:0px;} */
 
 
 
