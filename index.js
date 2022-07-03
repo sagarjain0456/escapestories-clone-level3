@@ -81,17 +81,60 @@ else{
 function myfunction2() {
  if(document.getElementById("checkbox2").checked ){
  document.getElementById("upcome").style.top= "290px";
+  document.getElementById("past").style.top= "345px";
+    document.getElementById("trek").style.top= "395px";
+    document.getElementById("community").style.top= "445px";
+    document.getElementById("find").style.top= "500px";
 // console.log("not checked")
 document.getElementById("pedalsitems").style.visibility="hidden" ;
  }
 
  else{
       document.getElementById("upcome").style.top= "430px";
+        document.getElementById("past").style.top= "500px";
+            document.getElementById("trek").style.top= "550px";
+              document.getElementById("community").style.top= "600px";
+              document.getElementById("find").style.top= "650px";
          // console.log("checked now");
          document.getElementById("pedalsitems").style.backgroundColor= "pink";
           document.getElementById("pedalsitems").style.top= "300px";
           document.getElementById("pedalsitems").style.left= "0px";
           document.getElementById("pedalsitems").style.width= "100%";
          document.getElementById("pedalsitems").style.visibility="visible" ;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+function myfunction3() {
+ if(document.getElementById("checkbox3").checked ){
+
+  document.getElementById("past").style.top= "345px";
+    document.getElementById("trek").style.top= "395px";
+    document.getElementById("community").style.top= "450px";
+    document.getElementById("find").style.top= "500px";
+// console.log("not checked")
+document.getElementById("upcomingitems").style.visibility="hidden" ;
+ }
+
+ else{
+
+        document.getElementById("past").style.top= "400px";
+            document.getElementById("trek").style.top= "450px";
+              document.getElementById("community").style.top= "500px";
+              document.getElementById("find").style.top= "550px";
+         // console.log("checked now");
+         document.getElementById("upcomingitems").style.backgroundColor= "pink";
+          document.getElementById("upcomingitems").style.top= "330px";
+          document.getElementById("upcomingitems").style.left= "0px";
+          document.getElementById("upcomingitems").style.width= "100%";
+         document.getElementById("upcomingitems").style.visibility="visible" ;
  }
 }
