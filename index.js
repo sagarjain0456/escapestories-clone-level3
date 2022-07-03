@@ -138,3 +138,40 @@ document.getElementById("upcomingitems").style.visibility="hidden" ;
          document.getElementById("upcomingitems").style.visibility="visible" ;
  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+function myfunction4() {
+ if(document.getElementById("checkbox4").checked ){
+
+
+    document.getElementById("trek").style.top= "395px";
+    document.getElementById("community").style.top= "445px";
+    document.getElementById("find").style.top= "500px";
+// console.log("not checked")
+document.getElementById("pastitems").style.visibility="hidden" ;
+ }
+
+ else{
+
+            document.getElementById("trek").style.top= "930px";
+              document.getElementById("community").style.top= "970px";
+              document.getElementById("find").style.top= "1020px";
+         // console.log("checked now");
+         document.getElementById("pastitems").style.backgroundColor= "pink";
+          document.getElementById("pastitems").style.top= "395px";
+          document.getElementById("pastitems").style.left= "0px";
+          document.getElementById("pastitems").style.width= "100%";
+         document.getElementById("pastitems").style.visibility="visible" ;
+ }
+}
