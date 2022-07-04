@@ -79,7 +79,7 @@ else{
 // });
 //
 function myfunction2() {
- if(document.getElementById("checkbox2").checked ){
+ if(document.getElementById("checkbox2").checked  ){
  document.getElementById("upcome").style.top= "290px";
   document.getElementById("past").style.top= "345px";
     document.getElementById("trek").style.top= "395px";
@@ -114,7 +114,14 @@ document.getElementById("pedalsitems").style.visibility="hidden" ;
 
 
 function myfunction3() {
+
+
+
+
+
+
  if(document.getElementById("checkbox3").checked ){
+
 
   document.getElementById("past").style.top= "345px";
     document.getElementById("trek").style.top= "395px";
@@ -125,6 +132,25 @@ document.getElementById("upcomingitems").style.visibility="hidden" ;
  }
 
  else{
+
+
+
+    if(document.getElementById("checkbox2").checked ){
+
+      document.getElementById("upcome").style.top= "290px";
+       document.getElementById("past").style.top= "345px";
+         document.getElementById("trek").style.top= "395px";
+         document.getElementById("community").style.top= "445px";
+         document.getElementById("find").style.top= "500px";
+     // console.log("not checked")
+     document.getElementById("pedalsitems").style.visibility="hidden" ;
+     // document.getElementById("upcomingitems").style.backgroundColor= "pink";
+     //  document.getElementById("upcomingitems").style.top= "330px";
+     //  document.getElementById("upcomingitems").style.left= "0px";
+     //  document.getElementById("upcomingitems").style.width= "100%";
+     // document.getElementById("upcomingitems").style.visibility="visible" ;
+
+    }
 
         document.getElementById("past").style.top= "400px";
             document.getElementById("trek").style.top= "450px";
@@ -164,6 +190,21 @@ document.getElementById("pastitems").style.visibility="hidden" ;
 
  else{
 
+
+       if(document.getElementById("checkbox3").checked ){
+         document.getElementById("past").style.top= "345px";
+           document.getElementById("trek").style.top= "395px";
+           document.getElementById("community").style.top= "450px";
+           document.getElementById("find").style.top= "500px";
+       // console.log("not checked")
+       document.getElementById("upcomingitems").style.visibility="hidden" ;
+
+
+
+       }
+
+
+
             document.getElementById("trek").style.top= "860px";
               document.getElementById("community").style.top= "900px";
               document.getElementById("find").style.top= "950px";
@@ -193,6 +234,19 @@ document.getElementById("treksitems").style.visibility="hidden" ;
  }
 
  else{
+
+
+ if(document.getElementById("checkbox4").checked ){
+
+   document.getElementById("trek").style.top= "395px";
+   document.getElementById("community").style.top= "445px";
+   document.getElementById("find").style.top= "500px";
+ // console.log("not checked")
+ document.getElementById("pastitems").style.visibility="hidden" ;
+
+ }
+
+
 
 
               document.getElementById("community").style.top= "800px";
@@ -226,6 +280,14 @@ document.getElementById("joinusbtn").style.visibility="hidden" ;
 
  else{
 
+if(document.getElementById("checkbox5").checked ){
+
+  document.getElementById("community").style.top= "445px";
+  document.getElementById("find").style.top= "500px";
+// console.log("not checked")
+document.getElementById("treksitems").style.visibility="hidden" ;
+
+}
 
 
               document.getElementById("find").style.top= "550px";
