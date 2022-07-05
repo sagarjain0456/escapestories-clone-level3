@@ -261,6 +261,40 @@ document.getElementById("treksitems").style.visibility="hidden" ;
  }
 
 
+if(document.getElementById("checkbox3").checked ){
+  document.getElementById("past").style.top= "345px";
+    document.getElementById("trek").style.top= "395px";
+    document.getElementById("community").style.top= "450px";
+    document.getElementById("find").style.top= "500px";
+// console.log("not checked")
+document.getElementById("upcomingitems").style.visibility="hidden" ;
+
+
+}
+
+
+
+
+
+
+
+
+
+if(document.getElementById("checkbox2").checked ){
+  document.getElementById("upcome").style.top= "290px";
+   document.getElementById("past").style.top= "345px";
+     document.getElementById("trek").style.top= "395px";
+     document.getElementById("community").style.top= "445px";
+     document.getElementById("find").style.top= "500px";
+  // console.log("not checked")
+  document.getElementById("pedalsitems").style.visibility="hidden" ;
+
+
+}
+
+
+
+
 
 
               document.getElementById("community").style.top= "800px";
@@ -302,6 +336,46 @@ if(document.getElementById("checkbox5").checked ){
 document.getElementById("treksitems").style.visibility="hidden" ;
 
 }
+
+
+if(document.getElementById("checkbox2").checked ){
+  document.getElementById("upcome").style.top= "290px";
+   document.getElementById("past").style.top= "345px";
+     document.getElementById("trek").style.top= "395px";
+     document.getElementById("community").style.top= "445px";
+     document.getElementById("find").style.top= "500px";
+  // console.log("not checked")
+  document.getElementById("pedalsitems").style.visibility="hidden" ;
+
+
+}
+
+
+if(document.getElementById("checkbox3").checked ){
+  document.getElementById("past").style.top= "345px";
+    document.getElementById("trek").style.top= "395px";
+    document.getElementById("community").style.top= "450px";
+    document.getElementById("find").style.top= "500px";
+// console.log("not checked")
+document.getElementById("upcomingitems").style.visibility="hidden" ;
+
+
+}
+
+
+
+if(document.getElementById("checkbox4").checked ){
+
+      document.getElementById("trek").style.top= "395px";
+      document.getElementById("community").style.top= "445px";
+      document.getElementById("find").style.top= "500px";
+  // console.log("not checked")
+  document.getElementById("pastitems").style.visibility="hidden" ;
+
+}
+
+
+
 
 
               document.getElementById("find").style.top= "550px";
