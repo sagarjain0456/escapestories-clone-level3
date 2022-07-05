@@ -198,10 +198,24 @@ document.getElementById("pastitems").style.visibility="hidden" ;
            document.getElementById("find").style.top= "500px";
        // console.log("not checked")
        document.getElementById("upcomingitems").style.visibility="hidden" ;
-
-
-
        }
+
+
+
+     else if (document.getElementById("checkbox2").checked) {
+       document.getElementById("upcome").style.top= "290px";
+        document.getElementById("past").style.top= "345px";
+          document.getElementById("trek").style.top= "395px";
+          document.getElementById("community").style.top= "445px";
+          document.getElementById("find").style.top= "500px";
+       // console.log("not checked")
+       document.getElementById("pedalsitems").style.visibility="hidden" ;
+
+
+
+     }
+
+
 
 
 
