@@ -29,6 +29,84 @@
 }
 
 
+#contact{
+  border: 3px solid black;
+  display: inline-block;
+  float: right;
+  margin-top:150px;
+  display:flex;
+    align-items:  center;
+    /* height: 300px; */
+}
+
+#phone{
+  height:50px;
+  width:50px;
+}
+
+
+#contact h1{
+  display: inline-block;
+align-items:  center;
+}
+
+
+#slideshow1{
+  height:100vh;
+  width:100%;
+  background-color: pink;
+
+}
+
+#shoejog{
+  height: 19vw;
+  width: 19vw;
+
+
+}
+
+#run{
+  height: 19vw;
+  width: 19vw;
+
+  /* margin:0px 60px 10px 60px; */
+}
+
+
+
+#cycle{
+  height: 19vw;
+  width: 19vw;
+
+  /* margin-left: 30%; */
+
+}
+
+#slideshow1img{
+  display: inline-block;
+  float:right;
+  border: 4px solid black;
+  height:100vh;
+  width:40%;
+  margin:0% 5% 0% 5%;
+
+}
+
+#slideshow1text{
+
+  display: inline-block;
+    border: 4px solid black;
+    text-align: center;
+    margin:5%;
+     color:brown;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5vw;
+    width:40%;
+    /* margin: auto; */
+}
+
+
+
 html{
   height: 100vh;
 }
