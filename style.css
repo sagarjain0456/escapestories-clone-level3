@@ -141,9 +141,8 @@ float:right;
 #slideshow2{
   width:100%;
 overflow: auto;
-  background-color: green;
+  /* background-color: green; */
   height:40vw;
-
 
 }
 
@@ -234,9 +233,41 @@ overflow: auto;
 
 
 
+ .red {
+  position: absolute;
+
+  height: 40vw;
+      width: 63vw;
+      background-color:  #82b74b;
+      opacity: 0.5;
+      transform: skew(30deg, 0) translateX(-50%);
+      z-index: -1;
+    }
 
 
 
+    .green {
+      position: absolute;
+       left:33.9%;
+      height: 40vw;
+          width: 4vw;
+          background-color: green;
+          opacity: 0.5;
+          transform: skew(30deg, 0) translateX(-50%);
+          z-index: -2;
+        }
+
+
+        .grey {
+          position: absolute;
+           left:91%;
+          height: 40vw;
+              width: 111vw;
+              background-color: grey;
+              opacity: 0.5;
+              transform: skew(30deg, 0) translateX(-50%);
+              z-index: -2;
+            }
 
 
 /* ending of the second slideshow (ending of the slideshow2) */
@@ -379,9 +410,9 @@ html{
   display:none;
 }
 
-body{
+/* body{
   background-color: orange;
-}
+} */
 
 .escapelogostyle{
   height:100px;
