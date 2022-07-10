@@ -140,6 +140,8 @@ float:right;
   width:100%;
 overflow: auto;
   background-color: green;
+  height:40vw;
+
 
 }
 
@@ -154,16 +156,19 @@ overflow: auto;
 
 #slideshow2text{
   border: 4px solid black;
-    width:40%;
+    width:35vw;
+    height: 20vw;
     display: inline-block;
  /* margin:20px; */
  margin-top: 2%;
  margin-left: 1%;
+ color: white;
 
 }
 
 #slideshow2text h2{
-  font-size: 3vw;
+  font-size: 1.3vw;
+  margin-left: 7%;
 }
 
 #slideshow2text h1{
@@ -185,6 +190,7 @@ overflow: auto;
    margin-left: 5%;
    margin-top: 2%;
      font-size: 1.06vw;
+     color: white;
 }
 
 
@@ -202,6 +208,8 @@ overflow: auto;
    width:auto;
    height:50%;
    margin-left: 10%;
+   margin-top: 4%;
+   padding: 1%;
 
 }
 
