@@ -310,6 +310,15 @@ overflow: auto;
 
 
 
+   .fade {
+     animation-name: fade;
+     animation-duration: 1.5s;
+   }
+
+   @keyframes fade {
+     from {opacity: .4}
+     to {opacity: 1}
+   }
 
 /* ending of the second slideshow (ending of the slideshow2) */
 
