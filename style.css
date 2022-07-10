@@ -29,14 +29,15 @@
 }
 
 
+
+/* starting of the slideshow1 */
+
 #contact{
   border: 3px solid black;
   display: inline-block;
   float: right;
-  /* margin-top:150px; */
   display:flex;
     align-items:  center;
-    /* height: 300px; */
 }
 
 #phone{
@@ -47,7 +48,7 @@
 
 #contact h1{
   display: inline-block;
-align-items:  center;
+
 font-size: 3vw;
 }
 
@@ -121,6 +122,112 @@ float:right;
 
 
 }
+
+
+
+#cyclepic{
+  height:100%;
+  width:100%;
+}
+
+
+/* ending of the slideshow1 */
+
+
+/* starting of the second slideshow (starting of the slideshow2) */
+
+#slideshow2{
+  width:100%;
+overflow: auto;
+  background-color: green;
+
+}
+
+#pedalslogo{
+  /* display: block; */
+  height:10vw;
+  width:10vw;
+  /* margin-top: -30px; */
+  /* float:top; */
+  float:left;
+}
+
+#slideshow2text{
+  border: 4px solid black;
+    width:40%;
+    display: inline-block;
+ /* margin:20px; */
+ margin-top: 2%;
+ margin-left: 1%;
+
+}
+
+#slideshow2text h2{
+  font-size: 3vw;
+}
+
+#slideshow2text h1{
+  font-size: 5vw;
+}
+
+
+#cycle2{
+  height: 30vw;
+  width: 30vw;
+  float: right;
+  margin-right: 5%;
+}
+
+
+#slideshow2text2{
+  display: inline-block;
+  border: 3px solid black;
+   margin-left: 5%;
+   margin-top: 2%;
+     font-size: 1.06vw;
+}
+
+
+
+#slideshowtext3{
+   display: inline-block;
+   border: 3px solid black;
+   margin-top: 3%;
+   margin-left: 10%;
+   margin-bottom: 2%;
+   color: white;
+   background-color: blue;
+   font-size: 1.1vw;
+   width:23%;
+
+}
+
+
+
+/* ending of the second slideshow (ending of the slideshow2) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 html{
