@@ -233,13 +233,13 @@ overflow: auto;
 
 
 
- .red {
+ .darkgreen {
   position: absolute;
 
   height: 40vw;
       width: 63vw;
       background-color:  #82b74b;
-      opacity: 0.5;
+      opacity: 1;
       transform: skew(30deg, 0) translateX(-50%);
       z-index: -1;
     }
@@ -268,6 +268,47 @@ overflow: auto;
               transform: skew(30deg, 0) translateX(-50%);
               z-index: -2;
             }
+
+
+
+
+
+   #leftarrow{
+     height:10vw;
+     width:10vw;
+     position: absolute;
+     right: 5%;
+     margin-top:-2%;
+   }
+
+
+
+
+
+   #contact2{
+     border: 3px solid black;
+     display: inline-block;
+     float: right;
+     display:flex;
+       align-items:  center;
+       float: left;
+       margin-left: 2%;
+   }
+
+   #phone2{
+     height:3vw;
+     width:3vw;
+   }
+
+
+   #contact2 h1{
+     display: inline-block;
+
+   font-size: 3vw;
+   }
+
+
+
 
 
 /* ending of the second slideshow (ending of the slideshow2) */
