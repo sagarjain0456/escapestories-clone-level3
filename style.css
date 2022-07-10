@@ -172,7 +172,7 @@ overflow: auto;
 
 
 #cycle2{
-  height: 30vw;
+  height: 40vw;
   width: 30vw;
   float: right;
   margin-right: 5%;
@@ -192,15 +192,40 @@ overflow: auto;
 #slideshowtext3{
    display: inline-block;
    border: 3px solid black;
-   margin-top: 3%;
+   /* margin-top: 3%;
    margin-left: 10%;
-   margin-bottom: 2%;
+   margin-bottom: 2%; */
    color: white;
    background-color: blue;
    font-size: 1.1vw;
-   width:23%;
+   /* width:33%; */
+   width:auto;
+   height:50%;
+   margin-left: 10%;
 
 }
+
+
+#arrowtext{
+  display: flex;
+  border: 4px solid black;
+  margin-top: 3%;
+}
+
+
+
+#arrow{
+  height:10vw;
+  width:10vw;
+  margin-left: 7%;
+  /* float: left; */
+  display:inline-block;
+}
+
+
+
+
+
 
 
 
