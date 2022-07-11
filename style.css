@@ -548,7 +548,7 @@ html{
 
 @media only screen and (max-width: 1241px) {
   body {
-    background-color: lightblue;
+    /* background-color: lightblue; */
   }
 
   .topbar{
@@ -594,7 +594,7 @@ html{
 
 @media only screen and (max-width: 1149px) {
   body {
-    background-color: red;
+    /* background-color: red; */
   }
 
 
@@ -614,7 +614,7 @@ html{
 
 @media only screen and (max-width: 1050px) {
   body {
-    background-color: brown;
+    /* background-color: brown; */
   }
 
 
@@ -658,7 +658,7 @@ html{
 
 @media only screen and (max-width: 908px) {
 body{
-  background-color: purple;
+  /* background-color: purple; */
 }
 
 
@@ -709,7 +709,7 @@ body{
 
 @media only screen and (max-width:790px) {
 body{
-  background-color: green;
+  /* background-color: green; */
 }
 
 
@@ -766,7 +766,7 @@ body{
 
 @media only screen and (max-width:766px) {
   body{
-    background-color: yellow;
+    /* background-color: yellow; */
     position: relative;
   }
 
@@ -917,144 +917,71 @@ body{
 #joinusbtn{
   visibility: hidden;
 }
-/* .pedalsabovediv:hover  {width:100%; left:0; top:280px; display: block;} */
 
 
-
-/* .pedalsabovediv:hover+h1{color:green;} */
-/* .pedalsabovediv:hover ~ .upcomingabovediv {color: red;} */
-
-
-/* .pedalsabovediv:hover ~ .upcoming{ top: 390px;} */
-
-
-
-
-
-/*
-.upcomingabovediv:hover #upcomingitems {width:100%; top:500px; left:0px;}
-.pastabovediv:hover #pastitems {width:100%; top:590px; left:0px;}
-.trekabovediv:hover #treksitems {width:100%; top:1135px; left:0px;}
-.communityabovediv:hover #joinusbtn {width:100%; top:1550px; left:0px;} */
-
-
-
-}    /* closing of the media query */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .container img{
-  height:100%;
-  width:100%;
-}
-.container {
+#slideshow2{
   position: relative;
-  text-align: center;
-  color: white;
 }
-.heading {
-  position: absolute;
-  top: 550px;
-  left: 600px;
-  font-size: 25px;
+
+#slideshow2text{
+margin-top: 10%;
+width:84vw;
+height:50vw;
 }
-.para {
-  position: absolute;
-  top: 600px;
-  left: 600px;
-  font-size: 15px;
-  padding-top: 10px;
+
+
+
+#slideshow2text h2{
+  font-size: 3.3vw;
+  margin-left: 7%;
 }
-.container2{
-  display: flex;
+
+#slideshow2text h1{
+  font-size: 13vw;
 }
-.content{
-  margin-top: 30px;
-  margin-left: 40px;
+
+
+
+#slideshow2{
+  height:90vw;
 }
-.one{
-padding-top: 20px;
+
+.grey{
+  height:90vw;
 }
-.two{
-padding-top: 20px;
-line-height: 2;
+
+.darkgreen{
+  height:90vw;
 }
-.insta{
-  height:50px;
-  width: 50px;
+
+.green{
+  height: 90vw;
 }
-.fb{
-  height:50px;
-  width: 50px;
+
+ #cycle2{
+position:absolute;
+z-index: -1;
+width:50vw;
+right:0px;
+margin-right: 0px;
+  height: 90vw;
 }
-.whats{
-  height:50px;
-  width: 50px;
+
+
+/* #contact2{
+
+float:bottom;
+margin-top: 4vw;
+} */
+
+
+
+#arrowtext{
+margin-top: 5vw;
 }
-.footer{
-  height: 200px;
-  width:100%;
-  background-color: black;
-  margin-top: 70px;
-}
- .terms{
-   margin-top: 15px;
- }
-.community{
-     margin-top: 15px;
-}
-.copyright{
-  color: green;
-  margin-top: 20px;
-}
-.leftside{
-  float: left;
-  margin-top: 30px;
-}
-.rightside{
-  float: right;
-  margin-top: 30px;
-  margin-right: 30px;
-}
-.leftside h1{
-  color: white;
-}
-.leftside h4{
-  color: white;
-}
-.leftside h5{
-  color: white;
-}
-.leftside h3{
-  color: green;
-}
-.email{
-  color: white;
-  margin-top: 15px;
-}
-@media only screen and (max-width:1100px) {
- .container2{
-   color: green;
-   flex-direction: column;
- }
+
+
+
+/* #slideshowtext3{
+margin-top: 5vw;
 } */
