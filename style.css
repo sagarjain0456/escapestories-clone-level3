@@ -1,244 +1,1330 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 
-<head>
-  <meta charset="utf-8">
-  <title> ESCAPE STOREIS CLONE</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <script src="https://kit.fontawesome.com/f5155d7586.js" crossorigin="anonymous"></script> -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+#checkbox2{
+  display:none;
+}
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
-</head>
 
-<body>
+#checkbox3{
+  display:none;
+}
 
 
-  <div class="topbar">
-    <!-- This is the topmost div starting-->
+#checkbox4{
+  display:none;
+}
 
 
-    <div class="escapelogo">
-      <img class="escapelogostyle" src="img/escape.png" alt="escape stories logo">
-    </div>
+#checkbox5{
+  display:none;
+}
 
+#checkbox6{
+  display:none;
+}
 
 
-    <div id="navitems">
-      <a id="sagar" class="home yo" href="#"> Home</a>
-      <a class="book yo" href="#"> Book Now</a>
-      <a id="find" class="find yo" href="#"> Search</a>
-      <a class="my yo" href="#"> My Ticket</a>
 
+/* starting of the slideshow1 */
 
+#contact{
+  border: 3px solid black;
+  display: inline-block;
+  float: right;
+  display:flex;
+    align-items:  center;
+}
 
+#phone{
+  height:3vw;
+  width:3vw;
+}
 
-      <span class=pedalsabovediv>
-        <input type="checkbox" id="checkbox2">
-        <label for="checkbox2">
-          <a onclick="myfunction2()" class="pedals yo">Pedas power</a>
-        </label>
-        <div id="pedalsitems">
-          <a href="#">June 21 days Challenge: Ride Run Walk </a>
-          <a href="#"> Manalai Leh cycling-Expedition (Fully Supported) </a>
-        </div>
-      </span>
 
+#contact h1{
+  display: inline-block;
 
+font-size: 3vw;
+}
 
-      <span class="upcomingabovediv">
-        <input type="checkbox" id="checkbox3">
-        <label for="checkbox3">
-          <a onclick="myfunction3()" id="upcome" class="upcoming yo"> Upcoming Events</a>
-        </label>
-        <div id="upcomingitems">
-          <a href="#">June 21 days Challenge: Ride Run Walk </a>
-        </div>
-      </span>
 
+#slideshow1{
+  overflow:auto;
+  /* height:auto; */
+  width:100%;
+  height:40vw;
+  background-color: pink;
 
+}
 
-      <span class="pastabovediv">
-        <input type="checkbox" id="checkbox4">
-        <label for="checkbox4">
-          <a onclick="myfunction4()" id="past" class="past yo"> Past Events</a>
-        </label>
-        <div id="pastitems">
-          <a href="#"> May Distance <br> challenge: Ride Run <br>Walk</a>
-          <a href="#"> April Run Challenge</a>
-          <a href="#"> Republic Day <br> Ride/Run/Walk</a>
-          <a href="#"> Winter Consistency <br> Challenge</a>
-          <a href="#"> Gurgaon Alwar <br> Gurgaon</a>
-          <a href="#"> Gandhi Jayanti Ride <br> Run Walk</a>
-          <a href="#"> Navy Day <br> Ride/Run/Walk</a>
-        </div>
-      </span>
+#shoejog{
+  height: 18vw;
+  width: 18vw;
 
 
+}
 
+#run{
+  height: 18vw;
+  width: 18vw;
+float:right;
 
+  /* margin:0px 60px 10px 60px; */
+}
 
-      <span class="trekabovediv">
-        <input type="checkbox" id="checkbox5">
-        <label for="checkbox5">
-          <a onclick="myfunction5()" id="trek" class="treks yo"> Treks</a>
-        </label>
-        <div id="treksitems">
-          <a href="#">Chopta-Chandrashilla</a>
-          <a href="#">Kedarkantha</a>
-          <a href="#">Indrahar Pass</a>
-          <a href="#">Mcleodganj</a>
-          <a href="#">Jibhi & Jalori Pass</a>
-          <a href="#">Kalga</a>
-          <a href="#">Kareri Lake</a>
-        </div>
-      </span>
 
 
+#cycle{
+  height: 18vw;
+  width: 18vw;
+  /* margin:auto; */
 
+  margin-left: 30%;
 
+}
 
-      <span class="communityabovediv">
-        <input type="checkbox" id="checkbox6">
-        <label for="checkbox6">
-          <a onclick="myfunction6()" id="community" class="community yo"> Community</a>
-        </label>
-        <div id="joinusbtn">
-          <a class="joinus" href="#"> Join Us</a>
-        </div>
-      </span>
+#slideshow1img{
+  display: inline-block;
+  float:right;
+  border: 4px solid black;
+  /* height: 100%; */
+  width:40%;
+  margin:0% 5% 0% 5%;
+  height:40vw;
 
+}
 
-    </div>
+#slideshow1text{
 
+  display: inline-block;
+    border: 4px solid black;
+    text-align: center;
+    margin:5%;
+     color:brown;
+    font-family: 'Kaushan Script', cursive;
+    /* font-size: 2.5vw; */
+    width:40%;
+    /* margin: auto; */
+}
+
 
+#slideshow1text h1{
+  font-size: 5.5vw;
+}
 
+#slideshow1text h2{
+  font-size: 3vw;
+  float:left;
+  margin-left: 5%;
 
 
-    <div class="rightlogos">
-      <img class="login" src="img/loginlogo.png" alt="login logo">
-      <img class="search" src="img/searchlogo.png" alt="search tool logo">
-      <img id="cart" src="img/cartlogo.png" alt="cartlogo">
-    </div>
+}
 
-  </div> <!-- this is the closing of the topmost div -->
 
 
+#cyclepic{
+  height:100%;
+  width:100%;
+}
 
 
+/* ending of the slideshow1 */
 
 
+/* starting of the second slideshow (starting of the slideshow2) */
 
-  <input type="checkbox" id="my-checkbox">
-  <label for="my-checkbox">
-    <div id="menu" onclick="myFunction()">
-      <div id="bar1"> </div>
-      <div id="bar2"> </div>
-    </div>
-  </label>
+#slideshow2{
+  width:100%;
+overflow: auto;
+  /* background-color: green; */
+  height:44vw;
 
+}
 
+#pedalslogo{
+  /* display: block; */
+  height:10vw;
+  width:10vw;
+  /* margin-top: -30px; */
+  /* float:top; */
+  float:left;
+}
 
+#slideshow2text{
+  border: 4px solid black;
+    width:35vw;
+    height: 20vw;
+    display: inline-block;
+ /* margin:20px; */
+ margin-top: 2%;
+ margin-left: 1%;
+ color: white;
 
+}
 
-<div class="slideshow-container">
+#slideshow2text h2{
+  font-size: 1.3vw;
+  margin-left: 7%;
+}
 
+#slideshow2text h1{
+  font-size: 5vw;
+}
 
- <!-- starting of the first slideshow -->
-  <!-- <div class="mySlides" id="slideshow1"> -->
-    <div class="mySlides fade" id="slideshow1">
 
-    <div id="slideshow1text">
-      <h1>July Distance <br> Challenge</h1>
-      <h2>Cycling/Running/Walking</h1>
-    </div>
+#cycle2{
+  height: 44vw;
+  width: 30vw;
+  float: right;
+  margin-right: 5%;
+}
 
-    <div id="slideshow1img">
-      <img id="shoejog" src="img/shoejog.png" alt="shoejog">
-      <img id="run" src="img/run.png" alt="run">
-      <img id="cycle" src="img/cycle.png" alt="cycle">
-    </div>
 
-    <div id="contact">
-      <img id="phone" src="img/phone.png" alt="phone">
-      <h1>8076388960</h1>
-    </div>
+#slideshow2text2{
+  display: inline-block;
+  border: 3px solid black;
+   margin-left: 5%;
+   margin-top: 2%;
+     font-size: 1.06vw;
+     color: white;
+}
 
-  </div>
-  <!-- ending of the first slideshow  -->
 
 
+#slideshowtext3{
+   display: inline-block;
+   border: 3px solid black;
+   /* margin-top: 3%;
+   margin-left: 10%;
+   margin-bottom: 2%; */
+   color: white;
+   /* background-color: blue; */
+   font-size: 1.1vw;
+   /* width:33%; */
+   width:auto;
+   height:7vw;
+   margin-left: 10%;
+   margin-top: 1vw;
+   padding: 1%;
 
+}
 
 
+#arrowtext{
+  display: flex;
+  border: 4px solid black;
+  margin-top: 3%;
+  height: 10vw;
+}
 
 
 
-  <!-- starting of the second slide show -->
+#arrow{
+  height:10vw;
+  width:10vw;
+  margin-left: 7%;
+  /* float: left; */
+  display:inline-block;
+}
 
-<div class="mySlides fade" id=slideshow2>
 
-  <div class="darkgreen"> </div>
-  <div class="green"> </div>
-  <div class="grey"> </div>
 
-  <img id="leftarrow" src="img/leftyarrow.png" alt="left arrow">
-  <img id="pedalslogo" src="img/pedalslogo.png" alt="pedalslogo">
+ .darkgreen {
+  position: absolute;
 
+  height: 44vw;
+      width: 63vw;
+      background-color:  #82b74b;
+      opacity: 1;
+      transform: skew(30deg, 0) translateX(-50%);
+      z-index: -1;
+    }
 
 
-  <div id="slideshow2text">
-    <h2> 11TH JULY-31ST JULY</h2>
-    <h1> 21 DAYS CYCLING CHALLENGE </h1>
-  </div>
 
+    .green {
+      position: absolute;
+       left:33.9%;
+      height: 44vw;
+          width: 4vw;
+          background-color: green;
+          opacity: 0.5;
+          transform: skew(30deg, 0) translateX(-50%);
+          z-index: -2;
+        }
 
 
-  <img id="cycle2" src="img/cycle2.png" alt="cycle2">
+        .grey {
+          position: absolute;
+           left:91%;
+          height: 44vw;
+              width: 111vw;
+              background-color: grey;
+              opacity: 0.5;
+              transform: skew(30deg, 0) translateX(-50%);
+              z-index: -2;
+            }
 
-  <div id="slideshow2text2">
-    <h2> 300KM | 600KM | 900KM | 1200KM | 2400KM</h2>
-  </div>
 
 
-  <div id="arrowtext">
 
-    <div id="sagararrow">
-      <img id="arrow" src="img/arrow.png" alt="arrow">
-    </div>
 
+   #leftarrow{
+     height:10vw;
+     width:10vw;
+     position: absolute;
+     right: 5%;
+     margin-top:-2%;
+   }
 
-    <div id="slideshowtext3">
-      <h2> REGISTRATIONS CLOSE <br>ON 9TH JULY</h2>
-    </div>
 
-  </div>
 
 
-  <div id="contact2">
-    <img id="phone2" src="img/phone.png" alt="phone">
-    <h1>8076388960</h1>
-  </div>
 
+   #contact2{
+     border: 3px solid black;
+     display: inline-block;
+     float: right;
+     display:flex;
+       align-items:  center;
+       float: left;
+       margin-left: 2%;
+   }
 
-</div>
+   #phone2{
+     height:3vw;
+     width:3vw;
+   }
 
-</div>
 
+   #contact2 h1{
+     display: inline-block;
 
+   font-size: 3vw;
+   }
 
 
-<br><br><br><br><br><br><br><br>
 
 
+   .fade {
+     animation-name: fade;
+     animation-duration: 1.5s;
+   }
 
+   @keyframes fade {
+     from {opacity: .4}
+     to {opacity: 1}
+   }
 
-  <script src="index.js" charset="utf-8"></script>
+/* ending of the second slideshow (ending of the slideshow2) */
 
 
-</body>
 
-</html>
+
+/* starting of the third slide show */
+
+
+
+#daysmore{
+  border: 4px solid black;
+  /* background-color: blue; */
+}
+
+
+#days{
+  font-size: 2.5vw;
+}
+
+
+#more{
+  font-size: 1.3vw;
+}
+
+
+#kmcover{
+
+    border: 4px solid black;
+    color: brown;
+}
+
+#kmcover2{                 /* erase*/
+  display: none;
+}
+
+
+#slideshow3{
+    overflow:auto;
+  height:44vw;
+  width:100%;
+  background-color: pink;
+}
+
+
+
+#running2{
+  width:100vw;
+  height:44vw;
+  opacity:0.5;
+  position: absolute;
+
+}
+
+
+
+
+#slideshow3text{
+
+  /* display: inline-block; */
+    border: 4px solid black;
+    text-align: center;
+    margin:0%;
+     color:brown;
+    font-family: 'Kaushan Script', cursive;
+    /* font-size: 2.5vw; */
+    width:43%;
+    height: 42vw;
+    /* margin: auto; */
+}
+
+
+
+#slideshow3text h1{
+  font-size: 4.5vw;
+    /* text-align: center; */
+}
+
+
+
+#km{
+  font-size: 1.6vw;
+  margin-top: 1.5vw;
+  margin-bottom: 1.3vw;
+  color: brown;
+
+}
+
+
+#th{
+  font-size: 1.6vw;
+  margin-bottom: 2vw;
+  background-color: white;
+  display: inline-block;
+  padding:0.1vw;
+    border: 4px solid black;
+    /* text-align: center; */
+    /* margin-left: 16vw; */
+    /* display: flex; */
+}
+
+
+
+#registrations{
+  display: inline-block;
+  font-size: 1.6vw;
+  /* float: left; */
+  margin-right: 15vw;
+  border: 4px solid black;
+  text-align: left;
+}
+
+
+
+
+#contact3{
+  border: 3px solid black;
+  display: inline-block;
+  float: right;
+  display:flex;
+    align-items:  center;
+    float: left;
+    margin-left: 5vw;
+    margin-top: 3vw;
+}
+
+#phone3{
+  height:2.2vw;
+  width:2vw;
+}
+
+
+#contact3 h1{
+  display: inline-block;
+
+font-size: 2.2vw;
+}
+
+
+#rewards{
+  display:none;
+}
+
+
+
+#prize{
+  display: none;
+}
+
+
+#alert{
+  display: none;
+}
+/* ending of the third slideshow */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+  height: 100vh;
+}
+#joinusbtn{
+  /* display: inline-block; */
+  display: none;
+  height:50px;
+  width:200px;
+  background-color: white;
+  position: absolute;
+  top:50px;
+  right: 280px;
+  border-radius: 10px;
+  /* padding: 50px; */
+}
+
+.joinus{
+
+  color: black;
+  margin-top: 0px;
+  margin-left: 10px;
+  display:inline-block;
+}
+
+.communityabovediv:hover #joinusbtn {display: inline-block;}
+#joinusbtn:hover {background-color: #82b74b;}
+
+
+#treksitems{
+  /* display:flex; */
+  display:none;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  right:380px;
+}
+
+
+.trekabovediv:hover #treksitems {display: flex;}
+#treksitems a:hover {background-color: #82b74b;}
+
+
+
+
+
+
+
+
+#pastitems{
+  /* display:flex; */
+  display:none;
+  /* justify-content: space-around; */
+  width: 200px;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  right:460px;
+}
+
+
+.pastabovediv:hover #pastitems {display: flex;}
+#pastitems a:hover {background-color: #82b74b;}
+
+
+
+
+
+
+#upcomingitems{
+  /* display:flex; */
+  display:none;
+  /* justify-content: space-around; */
+  width: 200px;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  right:600px;
+}
+
+.upcomingabovediv:hover #upcomingitems {display: flex;}
+#upcomingitems a:hover {background-color: #82b74b;}
+
+
+
+
+
+
+
+
+
+#pedalsitems{
+  /* display:flex; */
+  display:none;
+  /* justify-content: space-around; */
+  width: 200px;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  border-radius: 10px;
+  right:720px;
+}
+
+.pedalsabovediv:hover #pedalsitems {display: flex;}
+#pedalsitems a:hover {background-color: #82b74b;}
+
+
+
+#menu{
+  display:none;
+}
+
+/* body{
+  background-color: orange;
+} */
+
+.escapelogostyle{
+  height:100px;
+  width: 100px;
+}
+
+.login{
+  height:20px;
+  width: 20px;
+}
+
+.search{
+  height:20px;
+  width: 20px;
+}
+
+#cart{
+  height:20px;
+  width: 20px;
+}
+
+#my-checkbox{
+  display:none;
+}
+
+#menu{
+  cursor: pointer;
+}
+
+#bar1{
+  width: 20px;
+  height:2px;
+  background-color: black;
+  position: absolute;
+  top:20px;
+  left: 20px;
+  transition-property: transform;
+  transition-duration: 0.7s;
+  transition-delay: 0s;
+}
+
+#bar2{
+  width: 20px;
+  height:2.5px;
+  background-color: black;
+  position: absolute;
+  top:30px;
+  left: 20px;
+  transition-property: transform;
+  transition-duration: 0.7s;
+  transition-delay: 0s;
+}
+
+.topbar{
+  display: flex;
+  border: 2px solid black;
+  height:60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navitems {
+  border: 2px solid orange;
+  height: 50px;
+}
+
+#navitems a {
+   padding: 15px;
+   display: inline-block;
+   /* display: none; */
+   color: black;
+}
+
+.rightlogos img{
+   margin: 10px;
+}
+
+.find{
+  color: red;
+  visibility: hidden;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1241px) {
+  body {
+    /* background-color: lightblue; */
+  }
+
+  .topbar{
+    height:120px;
+  }
+
+
+
+  #joinusbtn{
+    top:110px;
+    right: 480px;
+  }
+
+
+
+  #treksitems{
+    right:150px;
+  }
+
+
+  #pastitems{
+    right:220px;
+  }
+
+
+  #upcomingitems{
+    right:360px;
+  }
+
+
+
+  #pedalsitems{
+    right:500px;
+  }
+
+#navitems {
+  border: 2px solid orange;
+  width: 800px;
+  height: 90px;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width: 1149px) {
+  body {
+    /* background-color: red; */
+  }
+
+
+  #treksitems{
+    right:580px;
+  }
+
+
+
+  #navitems {
+    border: 2px solid black;
+    width: 700px;
+    height: 90px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  body {
+    /* background-color: brown; */
+  }
+
+
+
+  #joinusbtn{
+    top:110px;
+    right: 300px;
+  }
+
+
+
+  #treksitems{
+    right:400px;
+  }
+
+
+
+  #pastitems{
+    right:500px;
+  }
+
+
+  #upcomingitems{
+    right:200px;
+  }
+
+
+
+  #pedalsitems{
+    right:300px;
+  }
+
+
+  #navitems {
+    border: 2px solid black;
+    width: 550px;
+    height: 90px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 908px) {
+body{
+  /* background-color: purple; */
+}
+
+
+
+
+
+
+#joinusbtn{
+  top:110px;
+  right: 140px;
+}
+
+
+ #treksitems{
+  right:240px;
+}
+
+
+
+#pastitems{
+  right:340px;
+}
+
+
+#upcomingitems{
+  right:460px;
+}
+
+
+
+#pedalsitems{
+  right:200px;
+}
+
+
+
+
+
+
+
+#navitems {
+  border: 2px solid black;
+  width: 450px;
+  height: 90px;
+  text-align: center;
+}
+}
+
+@media only screen and (max-width:790px) {
+body{
+  /* background-color: green; */
+}
+
+
+#joinusbtn{
+  top:140px;
+  right: 260px;
+}
+
+
+ #treksitems{
+  right:150px;
+}
+
+
+
+#pastitems{
+  right:230px;
+}
+
+
+#upcomingitems{
+  right:370px;
+}
+
+
+
+#pedalsitems{
+  right:140px;
+}
+
+
+
+
+.topbar{
+  height:170px;
+}
+
+#navitems {
+  border: 2px solid black;
+  width: 400px;
+  height: 140px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.escapelogo img{
+  margin-top: 10px;
+}
+
+.rightlogos{
+  margin-top: 0px;
+}
+}
+
+@media only screen and (max-width:766px) {
+  body{
+    /* background-color: yellow; */
+    position: relative;
+  }
+
+#navitems{
+  border: 5px solid green  ;
+  width: 80%;
+  text-align: center;
+  position: fixed;
+  top:0px;
+  margin-top: 0px;
+  padding-top: 100px;
+  left:-500%;
+  background: black;
+  /* color: red; */    /*no response*/
+  height: 100vh;
+  overflow: scroll;
+
+
+}
+
+#navitems a{
+  display: block;
+  text-align: left;
+}
+
+
+#navitems .yo{
+  color: white;
+}
+
+
+
+#joinusbtn{
+  /* top:110px;
+  right: 140px; */
+  color: black;
+}
+
+
+
+
+
+
+
+.topbar{
+   display: flex;
+  border: 2px solid black;
+  height:60px;
+ justify-content: center;
+  align-items: center;
+}
+
+.login{
+  height:20px;
+  width: 20px;
+  position: absolute;
+  top:11px;
+  right:50px;
+}
+
+.search{
+  height:20px;
+  width: 20px;
+  display: none;
+}
+
+#cart{
+  height:20px;
+  width: 20px;
+  position: absolute;
+  right:5px;
+  top:12px;
+}
+
+#menu{
+  display:block;
+}
+
+.find{
+  color: red;
+  visibility: visible;
+  position: absolute;
+  top: 500px;
+  left: 0px;
+}
+
+.community{
+  position: absolute;
+  /* top:500px; */
+   top:445px;
+}
+
+.treks{
+  position: absolute;
+  /* top:450px; */
+  top: 395px;
+}
+
+.past{
+  position: absolute;
+  /* top:400px; */
+  top:345px;
+   /* overflow: scroll; */
+}
+
+.upcoming{
+  position: absolute;
+  /* top:350px; */
+  top:290px;
+}
+
+.pedals{
+  position: absolute;
+  top:245px;
+  /* top:500px; */
+}
+
+.my{
+  position: absolute;
+  top:200px;
+}
+
+#checkbox2{
+  display:none;
+}
+#pedalsitems{
+
+    /* display:  none !important; */
+    visibility: hidden;
+}
+
+#upcomingitems{
+  visibility: hidden;
+}
+
+#pastitems{
+  visibility: hidden;
+}
+
+
+
+#treksitems{
+  visibility: hidden;
+}
+
+
+
+#joinusbtn{
+  visibility: hidden;
+}
+
+
+#slideshow2{
+  position: relative;
+}
+
+#slideshow2text{
+margin-top: 10%;
+width:84vw;
+height:50vw;
+}
+
+
+
+#slideshow2text h2{
+  font-size: 3.3vw;
+  margin-left: 7%;
+}
+
+#slideshow2text h1{
+  font-size: 13vw;
+}
+
+
+
+#slideshow2{
+  height:90vw;
+}
+
+.grey{
+  height:90vw;
+}
+
+.darkgreen{
+  height:90vw;
+}
+
+.green{
+  height: 90vw;
+}
+
+ #cycle2{
+position:absolute;
+z-index: -1;
+width:50vw;
+right:0px;
+margin-right: 0px;
+  height: 90vw;
+}
+
+
+
+
+
+#arrowtext{
+margin-top: 5vw;
+align-items: center;
+display: flex;
+align-items: center;
+}
+
+
+
+
+
+
+#slideshow2text2{
+  font-size: 2.4vw;
+  margin-left: 14%;
+}
+
+
+
+
+#slideshow3{
+  height: 90vw;
+}
+
+#running2{
+  height:90vw;
+}
+
+#slideshow3text{
+  height:90vw;
+}
+
+
+#daysmore{
+  background-color: grey;
+  height:20vw;
+    border: 4px solid black;
+}
+
+
+#more{
+margin-top: 1vw;
+
+}
+
+
+#registrations{
+  display: none;
+}
+
+
+/* #contact3{
+  display: none;
+} */
+
+
+#slideshow3text{
+  position: relative;
+}
+
+
+/*
+#kmcover{
+  display: inline-block;
+  background-color: green;
+  color:brown;
+  width:80%;
+  margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#km{
+  font-size: 2.7vw;
+  top:25vw;
+  color: brown;
+} */
+
+
+#kmcover{
+  display: none;
+}
+
+
+
+#kmcover2{
+  display:inline-block;
+  background-color: grey;
+  color:brown;
+  width:100%;
+  position: absolute;
+  top:24vw;
+  left:0vw;
+  height:17vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#km2{
+
+  font-size: 2.5vw;
+
+}
+
+
+
+
+
+
+#th{
+  position: absolute;
+  top:18vw;
+  left:0vw;
+  background-color: lightgrey;
+  color: black;
+  width:100%;
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  /* padding-right: 10%; */
+}
+
+
+ #rewards{
+
+  display: inline-block;
+  width:100%;
+  height:6%;
+  background-color: lightgrey;
+  color:black;
+  font-size: 3vw;
+  position: absolute;
+  top:40vw;
+  left:0vw;
+}
+
+
+
+
+#prize{
+  display: inline-block;
+  width:100%;
+  height:18%;
+  background: brown;
+  background-color: grey;
+  /* float:left; */
+  font-size: 2vw;
+  /* padding-top: 1vw; */
+  position: absolute;
+  top:45vw;
+  left:0vw;
+  text-align: left;
+  padding-left: 4vw;
+  align-items: center;
+  padding-top: 2.2vw;
+
+}
+
+
+
+
+
+
+#alert{
+  display: inline-block;
+  width: 100%;
+  height: 13%;
+  background-color: lightgrey;
+  color:black;
+  text-align: center;
+  font-size: 1.5vw;
+  position: absolute;
+  top: 61vw;
+  left:0vw;
+}
+
+
+
+
+#contact3{
+  display: inline-block;
+  background-color: grey;
+  color: brown;
+  position: absolute;
+  top:69vw;
+  left:-12%;
+  width:100%;
+  height:17vw;
+  text-align:left;
+  padding-top: 7vw;
+  padding-left: 3vw;
+}
+
+
+#phone3{
+  height:5vw;
+  width:5vw;
+}
+
+
+#contact3center{
+  display: flex;
+  align-items: center;
+}
