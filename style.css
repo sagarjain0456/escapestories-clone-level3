@@ -33,7 +33,7 @@
 /* starting of the slideshow1 */
 
 #contact{
-  border: 3px solid black;
+  border:  0.3vw solid black;
   display: inline-block;
   float: right;
   display:flex;
@@ -91,7 +91,7 @@ float:right;
 #slideshow1img{
   display: inline-block;
   float:right;
-  border: 4px solid black;
+  border:  0.3vw solid black;
   /* height: 100%; */
   width:40%;
   margin:0% 5% 0% 5%;
@@ -102,7 +102,7 @@ float:right;
 #slideshow1text{
 
   display: inline-block;
-    border: 4px solid black;
+    border:  0.3vw solid black;
     text-align: center;
     margin:5%;
      color:brown;
@@ -156,7 +156,7 @@ overflow: auto;
 }
 
 #slideshow2text{
-  border: 4px solid black;
+  border:  0.3vw solid black;
     width:35vw;
     height: 20vw;
     display: inline-block;
@@ -187,7 +187,7 @@ overflow: auto;
 
 #slideshow2text2{
   display: inline-block;
-  border: 3px solid black;
+  border:  0.3vw solid black;
    margin-left: 5%;
    margin-top: 2%;
      font-size: 1.06vw;
@@ -198,7 +198,7 @@ overflow: auto;
 
 #slideshowtext3{
    display: inline-block;
-   border: 3px solid black;
+   border:  0.3vw solid black;
    /* margin-top: 3%;
    margin-left: 10%;
    margin-bottom: 2%; */
@@ -217,7 +217,7 @@ overflow: auto;
 
 #arrowtext{
   display: flex;
-  border: 4px solid black;
+  border: 0.3vw solid black;
   margin-top: 3%;
   height: 10vw;
 }
@@ -287,7 +287,7 @@ overflow: auto;
 
 
    #contact2{
-     border: 3px solid black;
+     border:  0.3vw solid black;
      display: inline-block;
      float: right;
      display:flex;
@@ -330,8 +330,30 @@ overflow: auto;
 
 
 
+
+ /* .shade1 {
+
+  position: absolute;
+  height: 44vw;
+      width: 63vw;
+      background-color:  red;
+      opacity: 1;
+      transform: skew(30deg, 0) translateX(-50%);
+      z-index: -4;
+    } */
+
+
+
+
+
+
+
+
+
+
+
 #daysmore{
-  border: 4px solid black;
+  border:  0.3vw solid black;
   /* background-color: blue; */
 }
 
@@ -348,7 +370,7 @@ overflow: auto;
 
 #kmcover{
 
-    border: 4px solid black;
+    border:  0.3vw solid black;
     color: brown;
 }
 
@@ -380,7 +402,7 @@ overflow: auto;
 #slideshow3text{
 
   /* display: inline-block; */
-    border: 4px solid black;
+    border:  0.3vw solid black;
     text-align: center;
     margin:0%;
      color:brown;
@@ -415,7 +437,7 @@ overflow: auto;
   background-color: white;
   display: inline-block;
   padding:0.1vw;
-    border: 4px solid black;
+    border:  0.3vw solid black;
     /* text-align: center; */
     /* margin-left: 16vw; */
     /* display: flex; */
@@ -428,7 +450,7 @@ overflow: auto;
   font-size: 1.6vw;
   /* float: left; */
   margin-right: 15vw;
-  border: 4px solid black;
+  border:  0.3vw solid black;
   text-align: left;
 }
 
@@ -436,7 +458,7 @@ overflow: auto;
 
 
 #contact3{
-  border: 3px solid black;
+  border:  0.3vw solid black;
   display: inline-block;
   float: right;
   display:flex;
@@ -479,12 +501,129 @@ font-size: 2.2vw;
 
 
 
+/* starting of the fourth slideshow */
+
+
+#slideshow4{
+  background-color: blue;
+  height: 44vw;
+  width: 100vw;
+  position:relative;
+
+}
+
+
+
+#logodate4{
+    border: 0.3vw solid black;
+    display: inline-block;
+  display: flex;
+  align-items:center;
+}
+
+
+
+#pedalslogo4{
+  height: 13vw;
+  width: 13vw;
+  clip-path: circle( 40%);
+  background-color: white;
+}
+
+
+
+#date4{
+  color:white;
+  padding-left: 7vw;
+  padding-top: 3vw;
+  font-size: 2vw;
+
+}
+
+
+#dayskm4{
+  width:50vw;
+  margin-top: 0.3vw;
+  display: inline-block;
+  border: 0.3vw solid black;
+  margin-left: 7vw;
+  text-align: center;
+  /* padding:2vw; */
+}
+
+
+#days4{
+  color: yellow;
+  font-size: 5vw;
+
+
+}
+
+
+#days4part2{
+  color: yellow;
+    font-size: 5vw;
+
+}
+
+
+#km4{
+  color: white;
+  padding-top: 1vw;
+    font-size: 2vw;
+    text-align: left;
+    padding-left: 2.5vw;
+}
+
+
+
+
+#walk{
+  border-radius: 50%;
+  width:35vw;
+  height: 35vw;
+  position: absolute;
+  right:0vw;
+  top:3vw;
+  right:3vw;
+}
 
 
 
 
 
 
+#phone4{
+  height:5vw;
+  width:5vw;
+}
+
+
+#contact4{
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  border: 0.3vw solid black;
+  padding-left: 4vw;
+}
+
+
+
+#number4{
+  color: white;
+}
+
+
+
+#registrations4{
+  position: absolute;
+  bottom:1vw;
+  left: 35vw;
+  color:white;
+  font-size: 1vw;
+  border: 0.3vw solid black;
+}
+/* ending of the fourth slideshow */
 
 
 
@@ -666,14 +805,14 @@ html{
 
 .topbar{
   display: flex;
-  border: 2px solid black;
+  border:  0.3vw solid black;
   height:60px;
   justify-content: space-between;
   align-items: center;
 }
 
 #navitems {
-  border: 2px solid orange;
+  border:  0.3vw solid orange;
   height: 50px;
 }
 
@@ -733,7 +872,7 @@ html{
   }
 
 #navitems {
-  border: 2px solid orange;
+  border:  0.3vw solid orange;
   width: 800px;
   height: 90px;
   text-align: center;
@@ -753,7 +892,7 @@ html{
 
 
   #navitems {
-    border: 2px solid black;
+    border:  0.3vw solid black;
     width: 700px;
     height: 90px;
     text-align: center;
@@ -797,7 +936,7 @@ html{
 
 
   #navitems {
-    border: 2px solid black;
+    border:  0.3vw solid black;
     width: 550px;
     height: 90px;
     text-align: center;
@@ -848,7 +987,7 @@ body{
 
 
 #navitems {
-  border: 2px solid black;
+  border:  0.3vw solid black;
   width: 450px;
   height: 90px;
   text-align: center;
@@ -896,7 +1035,7 @@ body{
 }
 
 #navitems {
-  border: 2px solid black;
+  border:  0.3vw solid black;
   width: 400px;
   height: 140px;
   margin-top: -20px;
@@ -919,7 +1058,7 @@ body{
   }
 
 #navitems{
-  border: 5px solid green  ;
+  border:  0.3vw solid green  ;
   width: 80%;
   text-align: center;
   position: fixed;
@@ -961,7 +1100,7 @@ body{
 
 .topbar{
    display: flex;
-  border: 2px solid black;
+  border:  0.3vw solid black;
   height:60px;
  justify-content: center;
   align-items: center;
@@ -1155,7 +1294,7 @@ align-items: center;
 #daysmore{
   background-color: grey;
   height:20vw;
-    border: 4px solid black;
+    border:  0.3vw solid black;
 }
 
 
@@ -1327,4 +1466,10 @@ margin-top: 1vw;
 #contact3center{
   display: flex;
   align-items: center;
+}
+
+
+
+#slideshow4{
+  display: none;
 }
