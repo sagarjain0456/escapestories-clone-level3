@@ -33,7 +33,7 @@
 /* starting of the slideshow1 */
 
 #contact{
-  border:  0.3vw solid black;
+  /* border:  0.3vw solid black; */
   display: inline-block;
   float: right;
   display:flex;
@@ -91,7 +91,7 @@ float:right;
 #slideshow1img{
   display: inline-block;
   float:right;
-  border:  0.3vw solid black;
+  /* border:  0.3vw solid black; */
   /* height: 100%; */
   width:40%;
   margin:0% 5% 0% 5%;
@@ -102,7 +102,7 @@ float:right;
 #slideshow1text{
 
   display: inline-block;
-    border:  0.3vw solid black;
+    /* border:  0.3vw solid black; */
     text-align: center;
     margin:5%;
      color:brown;
@@ -147,16 +147,13 @@ overflow: auto;
 }
 
 #pedalslogo{
-  /* display: block; */
   height:10vw;
   width:10vw;
-  /* margin-top: -30px; */
-  /* float:top; */
   float:left;
 }
 
 #slideshow2text{
-  border:  0.3vw solid black;
+  /* border:  0.3vw solid black; */
     width:35vw;
     height: 20vw;
     display: inline-block;
@@ -187,7 +184,7 @@ overflow: auto;
 
 #slideshow2text2{
   display: inline-block;
-  border:  0.3vw solid black;
+  /* border:  0.3vw solid black; */
    margin-left: 5%;
    margin-top: 2%;
      font-size: 1.06vw;
@@ -198,7 +195,7 @@ overflow: auto;
 
 #slideshowtext3{
    display: inline-block;
-   border:  0.3vw solid black;
+   /* border:  0.3vw solid black; */
    /* margin-top: 3%;
    margin-left: 10%;
    margin-bottom: 2%; */
@@ -217,7 +214,7 @@ overflow: auto;
 
 #arrowtext{
   display: flex;
-  border: 0.3vw solid black;
+  /* border: 0.3vw solid black; */
   margin-top: 3%;
   height: 10vw;
 }
@@ -287,7 +284,7 @@ overflow: auto;
 
 
    #contact2{
-     border:  0.3vw solid black;
+     /* border:  0.3vw solid black; */
      display: inline-block;
      float: right;
      display:flex;
@@ -353,7 +350,7 @@ overflow: auto;
 
 
 #daysmore{
-  border:  0.3vw solid black;
+  /* border:  0.3vw solid black; */
   /* background-color: blue; */
 }
 
@@ -370,7 +367,7 @@ overflow: auto;
 
 #kmcover{
 
-    border:  0.3vw solid black;
+    /* border:  0.3vw solid black; */
     color: brown;
 }
 
@@ -402,7 +399,7 @@ overflow: auto;
 #slideshow3text{
 
   /* display: inline-block; */
-    border:  0.3vw solid black;
+    /* border:  0.3vw solid black; */
     text-align: center;
     margin:0%;
      color:brown;
@@ -437,7 +434,7 @@ overflow: auto;
   background-color: white;
   display: inline-block;
   padding:0.1vw;
-    border:  0.3vw solid black;
+    /* border:  0.3vw solid black; */
     /* text-align: center; */
     /* margin-left: 16vw; */
     /* display: flex; */
@@ -450,7 +447,7 @@ overflow: auto;
   font-size: 1.6vw;
   /* float: left; */
   margin-right: 15vw;
-  border:  0.3vw solid black;
+  /* border:  0.3vw solid black; */
   text-align: left;
 }
 
@@ -458,7 +455,7 @@ overflow: auto;
 
 
 #contact3{
-  border:  0.3vw solid black;
+  /* border:  0.3vw solid black; */
   display: inline-block;
   float: right;
   display:flex;
@@ -515,7 +512,7 @@ font-size: 2.2vw;
 
 
 #logodate4{
-    border: 0.3vw solid black;
+    /* border: 0.3vw solid black; */
     display: inline-block;
   display: flex;
   align-items:center;
@@ -545,7 +542,7 @@ font-size: 2.2vw;
   width:50vw;
   margin-top: 0.3vw;
   display: inline-block;
-  border: 0.3vw solid black;
+  /* border: 0.3vw solid black; */
   margin-left: 7vw;
   text-align: center;
   /* padding:2vw; */
@@ -603,7 +600,7 @@ font-size: 2.2vw;
   margin-top: 2vw;
   display: flex;
   align-items: center;
-  border: 0.3vw solid black;
+  /* border: 0.3vw solid black; */
   padding-left: 4vw;
 }
 
@@ -621,9 +618,644 @@ font-size: 2.2vw;
   left: 35vw;
   color:white;
   font-size: 1vw;
-  border: 0.3vw solid black;
+  /* border: 0.3vw solid black; */
 }
 /* ending of the fourth slideshow */
+
+
+
+
+
+/* starting of the poster1 */
+
+
+#textimage1{
+  display: flex;
+  width:100%;
+  /* border: 0.4vw solid black; */
+  z-index: 1;
+  /* position:relative; */
+}
+
+
+
+#rightposter1{
+  height:48vw;
+  width:48vw;
+  /* background-color: orange; */
+  /* display: inline-block; */
+   margin-left: 3vw;
+   margin-right: 1vw;
+   position: relative;
+}
+
+
+
+#lefttext1{
+ margin-top: 15vw;
+ margin-left: 2vw;
+   /* border: 0.4vw solid black; */
+   height: 30vw;
+   width:39vw;
+
+
+}
+
+
+
+
+#challenge{
+  font-size: 2.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+#hurry2{
+  font-size: 1.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+
+
+
+
+
+
+
+
+#duration{
+  font-size: 1.2vw;
+}
+
+#distance{
+  font-size: 1.2vw;
+}
+
+
+ #km3{
+  padding-left: 1.5vw;
+}
+
+
+#btn1{
+  background-color: white;
+  /* border-color: purple; */
+  border: 0.15vw solid purple;
+  border-radius: 13%;
+  margin-left: 1vw;
+  margin-top: 2.5vw;
+  padding-top:0.6vw;
+  padding-bottom: 0.6vw;
+  padding-left: 1.2vw;
+  padding-right: 1.2vw;
+  font-size: 1vw;
+}
+
+
+
+
+#circle {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#circletext{
+  display: flex;
+  align-items: center;
+  margin-top: 2vw;
+  margin-left: 1.5vw;
+}
+
+
+
+
+#circle2 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#circletext2{
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+  margin-left: 1.5vw;
+}
+
+
+
+
+
+#circle3 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#circletext3{
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+  margin-left: 1.5vw;
+}
+
+
+
+
+#complete{
+  margin-left: 0.8vw;
+  font-size: 1.3vw;
+}
+
+
+
+#duration{
+  margin-left: 0.8vw;
+  font-size: 1.3vw;
+}
+
+
+
+
+#distance{
+  margin-left: 0.8vw;
+  font-size: 1.3vw;
+}
+
+
+/* #rightposter1{
+  position: relative;
+} */
+
+#pedalslogo2{
+  height:8vw;
+  width:8vw;
+  margin-left: 2vw;
+  margin-top: 1vw;
+}
+
+#leftarrow2{
+  height:10vw;
+  width:10vw;
+  margin-top: -1vw;
+  float: right;
+}
+
+
+#poster1text{
+  /* border:0.3vw solid black; */
+  color:white;
+  /* position: absolute; */
+}
+
+
+
+#text1{
+  font-size: 2vw;
+  padding-left: 5vw;
+}
+
+
+#text2{
+  font-size: 5.4vw;
+    padding-left: 3vw;
+}
+
+
+#text3{
+  font-size: 1.5vw;
+  padding-left: 5vw;
+}
+
+
+#arrowregister2{
+  display: flex;
+  /* border: 0.2vw solid black; */
+  margin-top: 1vw;
+  height:10vw;
+}
+
+#rightarrow2{
+  height:10vw;
+  width:10vw;
+}
+
+
+#registrations2{
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  width:25vw;
+  height: 5vw;
+  /* padding:0.4vw; */
+  margin-top: 1vw;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  font-size: 1vw;
+}
+
+
+#contact5{
+  display:flex;
+  /* border:0.2vw solid black; */
+  padding-left: 3vw;
+  align-items: center;
+}
+
+
+#phone5{
+  height:3vw;
+  width:3vw;
+
+}
+
+
+#number5{
+  color: white;
+  padding-left: 1vw;
+  font-size: 2vw;
+}
+
+
+
+#cycletwo{
+  position: absolute;
+  height:48vw;
+  width:25vw;
+  z-index: -1;
+  top:0;
+  right:0;
+  float: right;
+}
+
+
+
+.green2{
+  height:48vw;
+  width:30vw;
+  background-color: green;
+  position: absolute;
+  opacity: 1;
+  z-index: -1;
+  border-top: 3vw;
+
+}
+
+
+
+/* .green2 {
+	border-bottom: 30vw solid green;
+	border-left: 20vw solid transparent;
+	border-right: 30vw solid transparent;
+	height:0;
+	width: 30vw;
+  position: absolute;
+  opacity: 1;
+  z-index: -1;
+
+} */
+
+/* .green2 {
+	border-bottom: 70vw solid #555;
+	border-left: 0vw solid transparent;
+	border-right: 30vw solid transparent;
+	height: 0;
+	width: 30vw;
+  background-color: green;
+  position: absolute;
+  opacity: 1;
+  z-index: -1;
+} */
+
+
+
+
+
+/*
+   .green2 {
+     position: absolute;
+      left:33.9%;
+     height: 44vw;
+         width: 4vw;
+         background-color: green;
+         opacity: 0.5;
+         transform: skew(30deg, 0) translateX(-50%);
+         z-index: -2;
+       } */
+
+
+
+/* ending of the poster1 */
+
+
+
+
+/* starting of the second poster and text   */
+
+#secondposter{
+   background-color: #f7cac9;
+   height: 55vw;
+  width:100%;
+  /* border: 0.2vw solid black; */
+  display: flex;
+  margin-top: 1vw;
+}
+
+
+
+#leftimagetext2{
+  height:44vw;
+  width:50vw;
+  /* background-color: lightblue; */
+  margin-left: 2vw;
+  margin-top: 6vw;
+    position: relative;
+    display: inline-block;
+}
+
+
+#daysmoreposter2{
+  /* display: inline-block; */
+  display: block;
+  /* border: 0.3vw solid black; */
+    /* width:25vw; */
+    width:100%;
+    text-align: center;
+    height: 20%;
+    background-color: grey;
+  padding-top:1vw;
+  padding-bottom: 1vw
+
+
+}
+
+#daysposter2{
+  /* display: inline-block; */
+  font-size: 2vw;
+
+
+}
+
+
+
+#moreposter2{
+  /* display: inline-block; */
+  font-size: 0.8vw;
+  color: brown;
+
+}
+
+#julyposter2{
+  color: black;
+  font-size: 1.5vw;
+  /* border: 0.2vw solid black; */
+  background-color: lightgrey;
+  /* display: inline-block; */
+  width:100%;
+  height:3vw;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  /* padding-top: 0.5vw; */
+
+}
+
+#leftsidefortext{
+  /* border:0.3vw solid black; */
+  width:50%;
+  height:44vw;
+  display: inline-block;
+}
+
+
+#kmcoverposter2{
+  background-color: grey;
+  color:brown;
+  width:100%;
+  /* border: 0.2vw solid black; */
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  height: 8vw;
+  width:100%;
+}
+
+
+
+#kmposter2{
+  font-size: 1.5vw;
+}
+
+
+#km2poster2{
+  font-size: 1.5vw;
+}
+
+
+
+#rewardsposter2{
+  color:black;
+  background-color: lightgrey;
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  width:100%;
+  height:3vw;
+}
+
+
+#prizeposter2{
+  background-color: grey;
+  color: brown;
+  font-size: 1.5vw;
+  padding: 1vw;
+  width:100%;
+  height:8vw;
+}
+
+#alertposter2{
+  background-color: white;
+  color: black;
+  font-size: 0.7vw;
+  text-align: center;
+}
+
+
+#contactposter2{
+  background-color: grey;
+  color:brown;
+  font-size: 1vw;
+  /* border: 0.4vw solid black; */
+  display: flex;
+  align-items:center;
+  height: 8.3vw;
+  width:100%;
+  padding-left: 2vw;
+}
+
+
+#phoneposter2{
+  height: 3vw;
+  width:3vw;
+}
+
+
+
+#running2poster2{
+  width: 50%;
+  height:44vw;
+  display: inline-block;
+  position: absolute;
+  top:0vw;
+  right:0vw;
+  object-fit:cover;
+}
+
+
+
+
+
+
+#righttext2{
+  /* background-color: pink; */
+  height:44vw;
+  width:50%;
+  display: inline-block;
+  margin-left: 5%;
+
+}
+
+
+
+#post2text{
+  margin-top: 10vw;
+}
+
+
+#challengepost2{
+  font-size: 4vw;
+}
+
+#hurrypost2{
+  font-size: 2.2vw;
+}
+
+
+
+#circletextpost2{
+  display: flex;
+  align-items:center;
+  font-size: 1.1vw;
+  margin-top: 2vw;
+  /* border: 0.3vw solid black;- */
+  width:60%;
+}
+
+
+#circlepost2 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#completepost2{
+  margin-left: 1vw;
+}
+
+
+
+
+  #circletext2post2{
+    display: flex;
+    align-items:center;
+    font-size: 1.1vw;
+    margin-top: 1vw;
+    /* border: 0.3vw solid black; */
+    width:60%;
+  }
+
+
+  #circle2post2 {
+    display: inline-block;
+      width: 0.5vw;
+      height: 0.5vw;
+      background: black;
+      border-radius: 50%
+    }
+
+
+#durationpost2{
+  margin-left: 1vw;
+}
+
+
+
+
+
+
+#circletext3post2{
+  display: flex;
+  align-items:center;
+  font-size: 1.1vw;
+  margin-top: 1vw;
+  /* border: 0.3vw solid black; */
+  width:60%;
+}
+
+
+#circle3post2 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#distancepost2{
+margin-left: 1vw;
+}
+
+
+
+#btn2{
+  font-size: 1vw;
+  border-radius: 15%;
+  border-color: purple;
+  background-color: white;
+  color: black;
+  height:3vw;
+  width:7vw;
+  margin-left: 3vw;
+  margin-top: 3vw;
+ }
+/* ending of the second poster and text   */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -805,14 +1437,14 @@ html{
 
 .topbar{
   display: flex;
-  border:  0.3vw solid black;
+  /* border:  0.3vw solid black; */
   height:60px;
   justify-content: space-between;
   align-items: center;
 }
 
 #navitems {
-  border:  0.3vw solid orange;
+  /* border:  0.3vw solid orange; */
   height: 50px;
 }
 
@@ -872,7 +1504,7 @@ html{
   }
 
 #navitems {
-  border:  0.3vw solid orange;
+  /* border:  0.3vw solid orange; */
   width: 800px;
   height: 90px;
   text-align: center;
@@ -892,7 +1524,7 @@ html{
 
 
   #navitems {
-    border:  0.3vw solid black;
+    /* border:  0.3vw solid black; */
     width: 700px;
     height: 90px;
     text-align: center;
@@ -936,7 +1568,7 @@ html{
 
 
   #navitems {
-    border:  0.3vw solid black;
+    /* border:  0.3vw solid black; */
     width: 550px;
     height: 90px;
     text-align: center;
@@ -987,7 +1619,7 @@ body{
 
 
 #navitems {
-  border:  0.3vw solid black;
+  /* border:  0.3vw solid black; */
   width: 450px;
   height: 90px;
   text-align: center;
@@ -1035,7 +1667,7 @@ body{
 }
 
 #navitems {
-  border:  0.3vw solid black;
+  /* border:  0.3vw solid black; */
   width: 400px;
   height: 140px;
   margin-top: -20px;
@@ -1058,7 +1690,7 @@ body{
   }
 
 #navitems{
-  border:  0.3vw solid green  ;
+  /* border:  0.3vw solid green  ; */
   width: 80%;
   text-align: center;
   position: fixed;
@@ -1100,7 +1732,7 @@ body{
 
 .topbar{
    display: flex;
-  border:  0.3vw solid black;
+  /* border:  0.3vw solid black; */
   height:60px;
  justify-content: center;
   align-items: center;
@@ -1205,7 +1837,7 @@ body{
   visibility: hidden;
 }
 
-
+/* starting of the slideshow2 */
 #slideshow2{
   position: relative;
 }
@@ -1275,7 +1907,7 @@ align-items: center;
   margin-left: 14%;
 }
 
-
+/* ending of the slideshow2 */
 
 
 #slideshow3{
