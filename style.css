@@ -620,6 +620,173 @@ font-size: 2.2vw;
   font-size: 1vw;
   /* border: 0.3vw solid black; */
 }
+
+
+#dayschallenge3{
+  background-color: orange;
+  width:100%;
+  text-align: center;
+  height:9vw;
+  color:black;
+ padding-top: 2vw;
+}
+
+#daysposter3{
+  font-size: 2vw;
+}
+
+
+
+#challengeposter3{
+  font-size: 2vw;
+}
+
+#julyposter3{
+  background-color: pink;
+  color:black;
+  font-size: 1.5vw;
+  height:2vw;
+  width:100%;
+   text-align: center;
+   display: block;
+}
+
+
+
+/* #kmbigcoverpost3{
+width:100%;
+background-color: BLUE;
+} */
+
+
+#kmcoverposter3{
+  background-color: orange;
+  color:brown;
+  width:100%;
+  /* height:8vw; */
+
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 1vw;
+  display:inline-block;
+  font-size: 1.5vw;
+  /* white-space: nowrap; */
+
+}
+
+
+#km1post3{
+font-size: 1.5vw;
+}
+
+
+#km2post3{
+font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+#rewardspost3{
+  background-color: lightpink;
+  color:black;
+  font-size: 2vw;
+   text-align: center;
+}
+
+
+
+
+
+#prizepost3{
+  width:100%;
+  height:10vw;
+  background-color: orange;
+  color:brown;
+  padding-top: 2vw;
+
+}
+
+
+#prize1post3{
+  display: flex;
+  /* border: 0.2vw solid black; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#circle1poster3{
+  height:0.5vw;
+  width:0.5vw;
+  border-radius: 50%;
+  background-color: brown;
+  margin-left: 1.5vw;
+}
+
+#certificatepost3{
+    font-size: 1.3vw;
+  padding-left: 0.9vw;
+}
+
+
+
+
+
+
+#prize2post3{
+  display: flex;
+  /* border: 0.2vw solid black; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#circle2poster3{
+  height:0.5vw;
+  width:0.5vw;
+  border-radius: 50%;
+  background-color: brown;
+
+  margin-left: 1.5vw;
+}
+
+#medalpost3{
+  font-size: 1.3vw;
+  padding-left: 0.9vw;
+}
+
+
+
+
+
+#prize3post3{
+  display: flex;
+  /* border: 0.2vw solid black; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#circle3poster3{
+  height:0.5vw;
+  width:0.5vw;
+  border-radius: 50%;
+  background-color: brown;
+
+  margin-left: 1.5vw;
+}
+
+#tshirtpost3{
+  font-size: 1.3vw;
+  padding-left: 0.9vw;
+}
+
 /* ending of the fourth slideshow */
 
 
@@ -1252,7 +1419,236 @@ margin-left: 1vw;
 
 
 
+/* starting of the poster 3 */
 
+
+#poster3{
+  height:55vw;
+  width:100%;
+  /* background-color: yellow; */
+  display: flex;
+}
+
+
+
+
+#lefttextposter3{
+  height:50vw;
+  width:40%;
+  /* background-color: blue; */
+  margin-left: 5%;
+  margin-top: 2vw;
+}
+
+
+
+#righttextimageposter3{
+  height:50vw;
+  width:40%;
+  background-color: pink;
+  margin-left: 5%;
+  margin-top: 2vw;
+  position: relative;
+  display: flex;
+}
+
+
+
+
+#challengepost3{
+  font-size: 2vw;
+  padding-left: 1vw;
+}
+
+
+
+#lefttextposter3innerbox{
+  /* border: 0.3vw solid black; */
+  margin-top: 15vw;
+  /* padding-left: 5vw; */
+  height:25vw;
+}
+
+
+
+
+
+#circletextpost3{
+  display: flex;
+  align-items:center;
+  font-size: 1.1vw;
+  margin-top: 2vw;
+  /* border: 0.3vw solid black; */
+  width:100%;
+  padding-right: 9vw;
+  padding-left: 1.2vw;
+}
+
+
+#circlepost3 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#completepost3{
+  margin-left: 1vw;
+}
+
+
+
+
+   #circletext2post3{
+    display: flex;
+    align-items:center;
+    font-size: 1.1vw;
+    margin-top: 1vw;
+    /* border: 0.3vw solid black; */
+    width:100%;
+    padding-left: 1.2vw;
+  }
+
+
+  #circle2post3 {
+    display: inline-block;
+      width: 0.5vw;
+      height: 0.5vw;
+      background: black;
+      border-radius: 50%
+    }
+
+
+#durationpost3{
+  margin-left: 1vw;
+}
+
+
+
+
+
+
+#circletext3post3{
+  display: flex;
+  align-items:center;
+  font-size: 1.1vw;
+  margin-top: 1vw;
+  /* border: 0.3vw solid black; */
+  width:100%;
+  padding-left: 1.2vw;
+}
+
+
+#circle3post3 {
+  display: inline-block;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: black;
+    border-radius: 50%
+  }
+
+
+#distancepost3{
+margin-left: 1vw;
+}
+
+
+
+
+#girlrun{
+  height:50vw;
+  width:20vw;
+  object-fit: cover;
+}
+
+
+
+
+
+
+#rightsidetext{
+  background-color: red;
+  height:50vw;
+  width:20vw;
+}
+
+
+
+#alertpost3{
+  height:8vw;
+  width:100%;
+  background-color: lightpink;
+  color: black;
+  padding-top: 1.5vw;
+}
+
+
+#hurrypost3{
+  font-size:  1.5vw;
+  text-align: center;
+}
+
+
+#registerpost3{
+  font-size:  1.5vw;
+  text-align: center;
+}
+
+
+#julypost3{
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+
+#contactpost3{
+  width:100%;
+  height: 11.2vw;
+  background-color: orange;
+  color: brown;
+  display: flex;
+  align-items: center;
+}
+
+
+
+#phonepost3{
+  width:2vw;
+  height:2vw;
+  margin-left: 0.3vw;
+}
+
+
+
+#numberpost3{
+  padding-left: 0.5vw;
+  font-size: 1.5vw;
+}
+
+#pedalslogopost3{
+  width:6vw;
+  height:6vw;
+  margin-left: 2vw;
+}
+
+
+
+#btnpost3{
+  background-color: white;
+  border: 0.15vw solid purple;
+  border-radius: 13%;
+  margin-left: 0.5vw;
+   margin-top: 2.5vw;
+  padding-top:0.6vw;
+  padding-bottom: 0.6vw;
+  padding-left: 1.2vw;
+  padding-right: 1.2vw;
+  font-size: 1vw;
+
+}
+/* ending of the poster 3 */
 
 
 
