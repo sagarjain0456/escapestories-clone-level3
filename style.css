@@ -805,7 +805,7 @@ font-size: 1.5vw;
 #textimage1{
   display: flex;
   width:100%;
-  background-color: yellow;
+  /* background-color: yellow; */
   /* border: 0.4vw solid black; */
   z-index: 1;
   /* position:relative; */
@@ -1432,7 +1432,7 @@ margin-left: 1vw;
 #poster3{
   height:55vw;
   width:100%;
-  background-color: yellow;
+  /* background-color: yellow; */
   display: flex;
 }
 
@@ -1667,6 +1667,8 @@ margin-left: 1vw;
   height:auto;
   width:100%;
   padding-bottom: 5vw;
+  /* display:flex;
+  bottom:0px; */
   position: relative;
   /* display: flex;
   flex-direction: column; */
@@ -1859,7 +1861,7 @@ html{
   display:inline-block;
 }
 
-.communityabovediv:hover #joinusbtn {display: inline-block;}
+.communityabovediv:hover #joinusbtn {display: inline-block; z-index: 1}
 #joinusbtn:hover {background-color: #82b74b;}
 
 
@@ -1874,7 +1876,7 @@ html{
 }
 
 
-.trekabovediv:hover #treksitems {display: flex;}
+.trekabovediv:hover #treksitems {display: flex; z-index: 1}
 #treksitems a:hover {background-color: #82b74b;}
 
 
@@ -1897,7 +1899,7 @@ html{
 }
 
 
-.pastabovediv:hover #pastitems {display: flex;}
+.pastabovediv:hover #pastitems {display: flex; z-index: 1}
 #pastitems a:hover {background-color: #82b74b;}
 
 
@@ -1917,7 +1919,7 @@ html{
   right:600px;
 }
 
-.upcomingabovediv:hover #upcomingitems {display: flex;}
+.upcomingabovediv:hover #upcomingitems {display: flex; z-index: 1}
 #upcomingitems a:hover {background-color: #82b74b;}
 
 
@@ -1940,7 +1942,7 @@ html{
   right:720px;
 }
 
-.pedalsabovediv:hover #pedalsitems {display: flex;}
+.pedalsabovediv:hover #pedalsitems {display: flex; z-index: 1}
 #pedalsitems a:hover {background-color: #82b74b;}
 
 
