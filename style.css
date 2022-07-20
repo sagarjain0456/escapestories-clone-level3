@@ -5,6 +5,12 @@
   text-decoration: none;
 }
 
+/* body{
+  background-color: black;
+} */
+
+
+
 #checkbox2{
   display:none;
 }
@@ -799,6 +805,7 @@ font-size: 1.5vw;
 #textimage1{
   display: flex;
   width:100%;
+  background-color: yellow;
   /* border: 0.4vw solid black; */
   z-index: 1;
   /* position:relative; */
@@ -1425,7 +1432,7 @@ margin-left: 1vw;
 #poster3{
   height:55vw;
   width:100%;
-  /* background-color: yellow; */
+  background-color: yellow;
   display: flex;
 }
 
@@ -1984,6 +1991,7 @@ html{
   transition-property: transform;
   transition-duration: 0.7s;
   transition-delay: 0s;
+  z-index: 21;
 }
 
 #bar2{
@@ -1996,6 +2004,7 @@ html{
   transition-property: transform;
   transition-duration: 0.7s;
   transition-delay: 0s;
+  z-index: 22;
 }
 
 .topbar{
@@ -2009,6 +2018,7 @@ html{
 #navitems {
   /* border:  0.3vw solid orange; */
   height: 50px;
+  /* background-color: red; */
 }
 
 #navitems a {
@@ -2261,10 +2271,11 @@ body{
   margin-top: 0px;
   padding-top: 100px;
   left:-500%;
-  background: black;
+  background :black;
   /* color: red; */    /*no response*/
   height: 100vh;
   overflow: scroll;
+  z-index: 20;
 
 
 }
@@ -2672,7 +2683,7 @@ margin-top: 1vw;
 
 /* starting of the footer mobile media */
 
-/* #rightfooter{
+#rightfooter{
   position: relative;
 }
 
@@ -2749,4 +2760,4 @@ margin-top: 1vw;
 #whatsappfooter{
   height:20px;
   width:20px;
-} */
+}
