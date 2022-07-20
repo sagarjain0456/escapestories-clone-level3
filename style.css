@@ -1654,6 +1654,173 @@ margin-left: 1vw;
 
 
 
+/* starting of the footer */
+#footer{
+  background-color: black;
+  height:auto;
+  width:100%;
+  padding-bottom: 5vw;
+  position: relative;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+#abouth1{
+  font-size: 24px;
+  color: white;
+  margin-left: 2vw;
+  padding-top: 4vw;
+    /* border:0.3vw solid orange; */
+    margin-bottom: 0.5vw;
+    width:40vw;
+    display: inline-block;
+}
+
+
+#communityfooter{
+  color:white;
+  font-size: 20px;
+  margin-left: 2vw;
+  /* padding-top: 2vw; */
+    /* border:0.3vw solid orange; */
+    width:45vw;
+    /* display: inline-block; */
+}
+
+#footerlinks{
+  margin-left: 2vw;
+  padding-top: 1vw;
+  /* border:0.3vw solid orange; */
+  display:inline-block;
+  font-size: 16px;
+  margin-top: 0.5vw;
+}
+
+
+#termsfooter{
+  padding-left: 1.5vw;
+}
+
+
+#privacyfooter{
+  padding-left: 1.5vw;
+}
+
+
+#tipsfooter{
+  padding-left: 1.5vw;
+}
+
+#copyrightfooter{
+  color:green;
+  font-size: 18px;
+  margin-left: 2vw;
+  padding-top: 1.5vw;
+    /* border:0.3vw solid orange; */
+    margin-top: 0.5vw;
+    width:45vw;
+}
+
+
+
+
+
+
+
+#rightfooter{
+  /* border:0.3vw solid orange; */
+  width:300px;
+  margin-top: 20px;
+  height:230px;
+  position: absolute;
+  top:35px;
+  right:0px;
+
+}
+
+#instafooter{
+  height:50px;
+  width:50px;
+  border-radius: 10px;
+}
+
+#fbfooter{
+  height:50px;
+  width:50px;
+  margin-left: 10px;
+    border-radius: 10px;
+}
+
+#whatsapp{
+  height:50px;
+  width:50px;
+  margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+
+#rightsocial2{
+  display:flex;
+  align-items: center;
+  margin-top:20px;
+}
+
+
+#mailfooter{
+  width:25px;
+  height:25px;
+}
+
+#hellopedals{
+  color:white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+
+
+#rightsocial3{
+display: flex;
+margin-top: 20px;
+}
+
+
+
+#callfooter{
+  width:25px;
+  height:25px;
+}
+
+
+#numberfooter{
+  color:white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+
+
+
+#rightsocial4{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#mapfooter{
+  width:25px;
+  height:25px;
+}
+
+#placefooter{
+  color:white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+/* ending of the footer */
+
 
 
 
@@ -2501,3 +2668,85 @@ margin-top: 1vw;
 #slideshow4{
   display: none;
 }
+
+
+/* starting of the footer mobile media */
+
+/* #rightfooter{
+  position: relative;
+}
+
+
+
+#abouth1{
+  width:90vw;
+    margin-left: 20px;
+}
+
+
+#communityfooter{
+  width:85vw;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+
+
+
+#copyrightfooter{
+  width:90vw;
+  font-size: 14px;
+  margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+#footerlinks{
+  margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#rightfooter{
+  margin-left: 20px;
+}
+
+
+#instafooter{
+  width:40px;
+  height:40px;
+}
+
+
+#fbfooter{
+  width:40px;
+  height:40px;
+}
+
+
+#whatsapp{
+  width:40px;
+  height:40px;
+}
+
+
+#mailfooter{
+  height:20px;
+  width:20px;
+}
+
+
+
+#callfooter{
+  height:20px;
+  width:20px;
+}
+
+
+
+
+#whatsappfooter{
+  height:20px;
+  width:20px;
+} */
