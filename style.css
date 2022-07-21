@@ -36,6 +36,7 @@
 
 
 
+
 /* starting of the slideshow1 */
 
 #contact{
@@ -614,6 +615,7 @@ font-size: 2.2vw;
 
 #number4{
   color: white;
+  font-size: 2vw;
 }
 
 
@@ -805,10 +807,11 @@ font-size: 1.5vw;
 #textimage1{
   display: flex;
   width:100%;
-  /* background-color: yellow; */
+  background-color: yellow;
   /* border: 0.4vw solid black; */
   z-index: 1;
-  /* position:relative; */
+  position:relative;
+  height:60vw;
 }
 
 
@@ -816,6 +819,7 @@ font-size: 1.5vw;
 #rightposter1{
   height:48vw;
   width:48vw;
+  /* border:0.4vw solid orange; */
   /* background-color: orange; */
   /* display: inline-block; */
    margin-left: 3vw;
@@ -968,9 +972,7 @@ font-size: 1.5vw;
 }
 
 
-/* #rightposter1{
-  position: relative;
-} */
+
 
 #pedalslogo2{
   height:8vw;
@@ -1432,7 +1434,7 @@ margin-left: 1vw;
 #poster3{
   height:55vw;
   width:100%;
-  /* background-color: yellow; */
+  background-color: yellow;
   display: flex;
 }
 
@@ -1455,7 +1457,7 @@ margin-left: 1vw;
   background-color: pink;
   margin-left: 5%;
   margin-top: 2vw;
-  position: relative;
+  /* position: relative; */
   display: flex;
 }
 
@@ -2502,7 +2504,7 @@ align-items: center;
 #daysmore{
   background-color: grey;
   height:20vw;
-    border:  0.3vw solid black;
+    /* border:  0.3vw solid black; */
 }
 
 
@@ -2678,9 +2680,9 @@ margin-top: 1vw;
 
 
 
-#slideshow4{
+/* #slideshow4{
   display: none;
-}
+} */
 
 
 /* starting of the footer mobile media */
@@ -2762,4 +2764,645 @@ margin-top: 1vw;
 #whatsappfooter{
   height:20px;
   width:20px;
+}
+
+
+
+
+#textimage1{
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  height:150vw;
+  background-color: white;
+}
+
+
+#rightposter1{
+  margin-top:15vw;
+
+}
+
+
+
+#challenge{
+  font-size: 5.5vw;
+  position:absolute;
+  /* border:0.7vw solid orange; */
+  width:60vw;
+  top:5vw;
+  left:25vw;
+}
+
+
+#hurry2{
+  /* border:0.7vw solid orange; */
+  font-size: 3.5vw;
+  width:57vw;
+  position: absolute;
+  left:9vw;
+  bottom:60vw;
+}
+
+#circletext{
+  /* border:0.7vw solid orange; */
+  width:57vw;
+  position: absolute;
+  left:8vw;
+  bottom:46vw;
+}
+
+#circle{
+  width:2.5vw;
+  height:1.5vw;
+}
+
+
+
+
+#complete{
+  font-size: 3.5vw;
+}
+
+
+
+
+
+
+#circletext2 {
+    /* border: 0.7vw solid orange; */
+    position: absolute;
+    left: 8vw;
+    bottom: 40vw;
+    width: 52vw;
+}
+
+
+
+
+#circle2 {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+
+
+
+
+#duration {
+    font-size: 3.5vw;
+}
+
+
+#circletext3 {
+    /* border: 0.7vw solid orange; */
+    position: absolute;
+    bottom: 30vw;
+    left: 8vw;
+    width: 63vw;
+}
+
+
+
+
+#circle3 {
+    width: 2.5vw;
+    height: 1.5vw;
+}
+
+
+
+
+#distance {
+    font-size: 3.5vw;
+}
+
+
+
+#rightposter1{
+  height:58vw;
+  width:78vw;
+  margin-top: -12vw;
+}
+
+
+.green2{
+  height:58vw;
+  width:40vw;
+}
+
+#cycletwo{
+  height:58vw;
+  width:39vw;
+}
+
+#contact5{
+  position: absolute;
+  bottom:2vw;
+  left:2vw;
+}
+
+
+#arrowregister2 {
+    margin-top: 9vw;
+    margin-left: 3vw;
+}
+
+
+#text3 {
+    font-size: 2.5vw;
+    position: absolute;
+    bottom: 17vw;
+}
+
+
+
+#text2 {
+    width: 41vw;
+}
+
+
+
+#btn1 {
+    margin-left: -25vw;
+    margin-top: 33.5vw;
+    padding-top: 2.3vw;
+    padding-bottom: 4.6vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    font-size: 3vw;
+    width: 23vw;
+    height: 8vw;
+}
+
+
+#rightarrow2 {
+    /* height: 10vw; */
+    width: 20vw;
+  }
+
+
+
+/* second poster mobile responsive */
+
+#secondposter{
+  height:190vw;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+}
+
+
+
+#leftimagetext2{
+  /* border:0.6vw solid black; */
+  width:83vw;
+  height:75vw;
+margin-top:16vw;
+}
+
+
+#daysmoreposter2{
+  height:30%;
+}
+
+
+#daysposter2{
+  font-size: 3vw;
+}
+
+
+#moreposter2{
+  font-size: 1.8vw;
+}
+
+
+#julyposter2{
+  height:5vw;
+  font-size: 2.8vw;
+}
+
+
+
+#kmcoverposter2{
+  height:10vw;
+}
+
+
+#kmposter2{
+  font-size: 2.5vw;
+}
+
+
+
+
+#km2poster2{
+  font-size: 2.5vw;
+}
+
+
+
+#rewardsposter2{
+  height: 5vw;
+  font-size: 3vw;
+}
+
+
+
+#prizeposter2{
+  height: 15vw;
+  font-size: 3vw;
+}
+
+
+#alertposter2{
+  font-size: 1.3vw;
+}
+
+
+#contactposter2{
+  height: 16.3vw;
+  font-size: 2vw;
+}
+
+
+
+#phoneposter2{
+  height: 5vw;
+  width:5vw;
+}
+
+
+#running2poster2{
+  height:74vw;
+}
+
+
+
+#challengepost2{
+  position:absolute;
+   top:2vw;
+   left:22vw;
+   /* border:0.7vw solid black; */
+   width:63vw;
+   font-size: 6vw;
+}
+
+
+
+#hurrypost2{
+  font-size: 4.2vw;
+  /* border:0.7vw solid black; */
+  position:absolute;
+  bottom: 80vw;
+left: 8vw;
+width: 57vw;
+}
+
+
+
+
+
+
+#circletextpost2 {
+    font-size: 4.1vw;
+    margin-top: 2vw;
+    width: 64%;
+    left: 9vw;
+    bottom: 60vw;
+    /* border: 0.7vw solid black; */
+    position: absolute;
+}
+
+
+
+
+
+
+#circletext2post2 {
+    font-size: 4.1vw;
+    /* border: 0.7vw solid black; */
+    width: 60%;
+    position: absolute;
+    bottom: 50vw;
+    left: 9vw;
+}
+
+
+
+#circletext3post2 {
+    font-size: 4.1vw;
+    margin-top: 1vw;
+    /* border: 0.7vw solid black; */
+    width: 72%;
+    position: absolute;
+    bottom: 35vw;
+    left: 9vw;
+}
+
+
+
+
+
+#btn2 {
+    font-size: 4vw;
+    border-color: black;
+    color: black;
+    height: 12vw;
+    width: 33vw;
+    margin-left: 3vw;
+    margin-top: 3vw;
+    position: absolute;
+    bottom: 11vw;
+    left: 2vw;
+}
+
+
+
+
+#poster3 {
+    height: 190vw;
+    width: 100%;
+    background-color: yellow;
+    flex-direction: column-reverse;
+    position: relative;
+    align-items: center;
+}
+
+
+
+
+
+#rightsidetext {
+    height: 51vw;
+    width: 45vw;
+}
+
+
+#girlrun {
+    height: 95vw;
+    width: 35vw;
+    object-fit: cover;
+}
+
+
+
+#righttextimageposter3 {
+    height: 78vw;
+    width: 80%;
+    position: absolute;
+    top: 20vw;
+}
+
+
+
+
+#dayschallenge3{
+  height: 14vw;
+}
+
+
+
+
+
+#daysposter3 {
+    font-size: 4vw;
+}
+
+
+#challengeposter3 {
+    font-size: 4vw;
+}
+
+
+
+#julyposter3{
+ height:6vw;
+ font-size: 3.5vw;
+ display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+#kmcoverposter3{
+  height:13vw;
+}
+
+
+
+#km1post3 {
+    font-size: 3.5vw;
+}
+
+#km2post3 {
+    font-size: 3.5vw;
+}
+
+
+#rewardspost3{
+  height:7vw;
+  font-size: 5vw;
+}
+
+
+#prizepost3{
+  height:20vw;
+}
+
+
+
+#certificatepost3 {
+    font-size: 3.5vw;
+}
+
+
+#medalpost3 {
+    font-size: 3.5vw;
+}
+
+
+
+#tshirtpost3 {
+    font-size: 3.5vw;
+}
+
+
+
+#circle1poster3 {
+    height: 1vw;
+    width: 1vw;
+}
+
+
+#circle2poster3 {
+    height: 1vw;
+    width: 1vw;
+}
+
+
+
+#circle3poster3 {
+    height: 1vw;
+    width: 1vw;
+}
+
+
+
+#alertpost3{
+  height:20vw;
+}
+
+
+#hurrypost3 {
+    font-size: 3.5vw;
+}
+
+
+
+#registerpost3 {
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+
+
+#julypost3 {
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+
+
+#contactpost3{
+  height:15vw;
+}
+
+
+#phonepost3 {
+    width: 6vw;
+    height: 6vw;
+}
+
+
+
+#numberpost3 {
+    font-size: 4.5vw;
+}
+
+
+
+#pedalslogopost3 {
+    width: 10vw;
+    height: 10vw;
+
+}
+
+
+
+#challengepost3 {
+    font-size: 6vw;
+    /* border: 0.8vw solid black; */
+    width: 60vw;
+    position: absolute;
+    top: 5vw;
+    left: 22vw;
+}
+
+
+
+
+#circlepost3 {
+    width: 2vw;
+    height: 1.3vw;
+}
+
+
+#circletextpost3 {
+    font-size: 4.1vw;
+    padding-right: 9vw;
+    padding-left: 1.2vw;
+    /* border: 0.8vw solid black; */
+    width: 90vw;
+    position: absolute;
+    bottom: 55vw;
+    left: 8vw;
+}
+
+
+
+
+
+#circletext2post3 {
+    font-size: 4.1vw;
+    /* border: 0.8vw solid black; */
+    position: absolute;
+    bottom: 45vw;
+    width: 90vw;
+    left: 8vw;
+}
+
+
+
+
+#circle2post3 {
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+
+#circletext3post3 {
+    font-size: 4.1vw;
+    position: absolute;
+    /* border: 0.8vw solid black; */
+    bottom: 30vw;
+    left: 8vw;
+    width: 80vw;
+}
+
+
+#circle3post3 {
+    width: 2vw;
+    height: 1.4vw;
+}
+
+
+
+
+#btnpost3 {
+    border: 0.15vw solid black;
+    margin-left: 0.5vw;
+    margin-top: 2.5vw;
+    padding-top: 3.6vw;
+    padding-bottom: 4.6vw;
+    padding-left: 5.2vw;
+    padding-right: 5.2vw;
+    font-size: 5vw;
+    position: absolute;
+    bottom: 7vw;
+    left: 5vw;
+}
+
+
+
+
+
+#circlepost2 {
+    width: 2.2vw;
+    height: 1.3vw;
+}
+
+
+
+#circle2post2 {
+    width: 1.2vw;
+    height: 1.3vw;
+}
+
+
+
+#circle3post2 {
+    width: 2.2vw;
+    height: 1.3vw;
 }
